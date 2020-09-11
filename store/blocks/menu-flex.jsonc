@@ -1,5 +1,5 @@
 {
-  /*"vtex.menu@2.x:submenu#major": {
+  "vtex.menu@2.x:submenu#major": {
     "children": ["flex-layout.row#major"]
   },
 
@@ -38,5 +38,5 @@
       "alt": "Coffee Makers Collection",
       "maxWidth": "200px"
     }
-  }*/
+  }
 }

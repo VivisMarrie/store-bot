@@ -1,10 +1,10 @@
 {
-  /* "menu-item#major-appliances": {
+  "menu-item#categorias": {
     "props": {
       "type": "custom",
       "highlight": true,
       "itemProps": {
-        "text": "Major Aplliances"
+        "text": "Categorias"
       }
     }
   },
@@ -117,5 +117,5 @@
         "text": "Cameras"
       }
     }
-  }*/
+  }
 }

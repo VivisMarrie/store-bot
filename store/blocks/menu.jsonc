@@ -1,7 +1,7 @@
 {
-  /*  "vtex.menu@2.x:menu#categories": {
+   "vtex.menu@2.x:menu#categories": {
     "children": [
-      "menu-item#major-appliances",
+      "menu-item#categorias",
       "menu-item#small-appliances",
       "menu-item#electronics"
     ],
@@ -45,5 +45,5 @@
     "props":{
       "orientation": "vertical"
     }
-  }*/
+  }
 }
