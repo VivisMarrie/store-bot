@@ -18,43 +18,43 @@
 
   "image#brand1": {
     "props": {
-      "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square1.png",
-      "maxHeight": 100
+      "src": "https://hiringcoders14.vteximg.com.br/arquivos/ids/155400-100-100/casaco-azul.jpg",
+      "maxHeight": 400
     }
   },
   
   "image#brand2": {
     "props": {
-      "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square2.png",
-      "maxHeight": 100
+      "src": "https://hiringcoders14.vteximg.com.br/arquivos/ids/155399-100-100/moletom.jpg",
+      "maxHeight": 400
     }
   },
 
   "image#brand3": {
     "props": {
-      "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square3.png",
-      "maxHeight": 100
+      "src": "https://hiringcoders14.vteximg.com.br/arquivos/ids/155402-100-100/poloAzul.jpg",
+      "maxHeight": 400
     }
   },
   
   "image#brand4": {
     "props": {
-      "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square4.png",
-      "maxHeight": 100
+      "src": "https://hiringcoders14.vteximg.com.br/arquivos/ids/155401-100-100/polo-amarelo.jpg",
+      "maxHeight": 400
     }
   },
 
   "image#brand5": {
     "props": {
-      "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square5.png",
-      "maxHeight": 100
+      "src": "https://hiringcoders14.vteximg.com.br/arquivos/ids/155403-100-100/jeansP.jpg",
+      "maxHeight": 400
     }
   },
   
   "image#brand6": {
     "props": {
-      "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square6.png",
-      "maxHeight": 100
+      "src": "https://hiringcoders14.vteximg.com.br/arquivos/ids/155404-100-100/jeansG.jpg",
+      "maxHeight": 400
     }
   }
 }  
