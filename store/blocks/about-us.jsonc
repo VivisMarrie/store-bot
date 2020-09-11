@@ -1,0 +1,76 @@
+{
+    "store.custom#about-us": {
+      "blocks": [
+        "tab-layout#home"
+      ]
+    },
+
+    "tab-layout#home": {
+        "children": [
+          "tab-list#home",
+          "tab-content#home"
+        ]
+    },
+
+    "tab-list#home": {
+        "children": [
+          "tab-list.item#home1",
+          "tab-list.item#home2"
+          ]
+    },
+
+    "tab-content#home": {
+        "children": [
+          "tab-content.item#home1",
+          "tab-content.item#home2"
+          ]
+    },
+
+    "tab-list.item#home1": {
+        "props": {
+          "tabId": "about",
+          "label": "About",
+          "defaultActiveTab": true
+        }
+      },
+      "tab-list.item#home2": {
+        "props": {
+          "tabId": "instagram",
+          "label": "Instagram"
+        }
+    },
+
+    "tab-content.item#home1": {
+        "children": [
+          "rich-text#home1"
+        ],
+        "props": {
+          "tabId": "about"
+        }
+    },
+    
+    "tab-content.item#home2": {
+        "children": [
+          "iframe"
+        ],
+        "props": {
+          "tabId": "instagram"
+        }
+    },
+
+    "rich-text#home1": {
+        "props": {
+          "text": "# **Our history** \n ### **We were born from an internal VTEX hackathon!** \n That's right. VTEX's first Hackatheme (store theme hackathon) had 3 finalists. One of them was FlatFlat, the store that you're accessing now. FlatFlat was created by the engineers Afonso Praça and Sávio Muniz, together with designers Lucas Falcão and Augusto Barbosa, and new business director Maurício Baum. As the store was created by profissionals having the most diverse backgrounds, the result was an obvious one: they became the finalists with coolest layout among participants.",
+          "textPosition": "CENTER"
+        //   "font": "t-heading-3"
+        }
+    },
+
+    "iframe": {
+        "props": {
+          "src": "https://www.instagram.com/p/B973Qp8BacC/embed",
+          "width": 800,
+          "height": 1000
+        }
+    }
+}

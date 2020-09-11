@@ -1,0 +1,63 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": ["flex-layout.row#footer-1-desktop"]
+  },
+
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "flex-layout.col#footer-left-desktop",
+      "flex-layout.col#footer-right-desktop"
+    ],
+    "props": {
+      "blockClass": "footer-row",
+      "paddingTop": 7,
+      "paddingBottom": 7
+    }
+  },
+
+  "flex-layout.col#footer-left-desktop": {
+    "children": ["accepted-payment-methods"],
+    "props": {
+      "blockClass": "footer-row",
+      "paddingTop": 7,
+      "paddingBottom": 7
+    }
+  },
+
+  "footer-layout.mobile": {
+    "children": ["flex-layout.row#footer-mobile"]
+  },
+  "flex-layout.row#footer-mobile": {
+    "children": ["accepted-payment-methods", "social-networks"]
+  },
+
+  "accepted-payment-methods": {
+    "props": {
+      "showInColor": false,
+      "paymentMethods": ["mastercard", "visa", "diners club"]
+    }
+  },
+
+  "flex-layout.col#footer-right-desktop": {
+    "children": ["social-networks"],
+    "props": {
+      "blockClass": "footer-row",
+      "paddingTop": 7,
+      "paddingBottom": 7
+    }
+  },
+
+  "social-networks": {
+    "props": {
+      "showInColor": true,
+      "socialNetworks": [
+        { "url": "https://facebook.com/milachung", "name": "Facebook" },
+        { "url": "https://instagram.com/milachung", "name": "Instagram" },
+        { "url": "https://linkedin.com/in/milachung", "name": "Linkedin" }
+      ]
+    }
+  }
+}

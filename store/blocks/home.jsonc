@@ -1,0 +1,5 @@
+{
+  "store.home": {
+    "blocks": ["shelf", "info-card#home", "slider-layout#home", "newsletter"]
+  }
+}

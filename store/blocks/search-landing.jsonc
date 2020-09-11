@@ -1,0 +1,63 @@
+{
+  "store.custom#landing": {
+    "blocks": []
+    // "blocks": ["image#landing", "search-result-layout.customQuery"]
+  } /*,
+  "image#landing": {
+    "props": {
+      "minWidth": "100%",
+      "src": "https://user-images.githubusercontent.com/18701182/69889938-64b16180-12d2-11ea-8d8a-e3089cbeaffd.png"
+    }
+  },
+  "search-result-layout.customQuery": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 8,
+        "queryField": "Blue Top Retro Camera",
+        "mapField": "ft"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop": {
+    "children": [
+      "breadcrumb.search",
+      "search-title.v2",
+      "flex-layout.row#top",
+      "search-fetch-previous",
+      "flex-layout.row#results",
+      "search-fetch-more"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": true
+    }
+  },
+  "flex-layout.row#top": {
+    "children": ["total-products.v2", "order-by.v2"]
+  },
+  "flex-layout.row#results": {
+    "children": ["flex-layout.col#filter", "flex-layout.col#search"]
+  },
+  "flex-layout.col#filter": {
+    "props": {
+      "width": "20%"
+    },
+    "children": ["filter-navigator.v3"]
+  },
+  "flex-layout.col#search": {
+    "children": ["search-content"]
+  },
+  "search-content": {
+    "blocks": ["gallery", "not-found"]
+  },
+  "gallery": {
+    "blocks": ["product-summary.shelf"]
+  }*/
+}
