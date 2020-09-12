@@ -6,27 +6,29 @@
       "orderBy": "OrderByTopSaleDESC",
       "paginationDotsVisibility": "desktopOnly",
       "productList": {
-        "maxItems": 8,
-        "itemsPerPage": 4,
+        "maxItems": 10,
+        "itemsPerPage": 5,
         "minItemsPerPage": 1,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "Top sellers"
+        "titleText": "Itens mais Vendidos"
       }
     }
   },
   "product-summary.shelf": {
     "children": [
       "product-summary-image",
-      "product-summary-add-to-list-button",
       "product-summary-name",
-      "product-rating-inline",
-      "product-summary-space",
+      "product-summary-sku-selector",
       "product-summary-price",
-      "product-identifier.summary",
-      "product-summary-buy-button",
-      "product-summary-add-to-list-button",
-      "product-summary-sku-selector"
+      "product-summary-buy-button"
     ]
+  },
+  "product-summary-buy-button": {
+    "props": {
+      "isOneClickBuy": false,
+      "displayBuyButton": "displayButtonAlways",
+      "buyButtonText": "Adicionar ao Carrinho"
+    }
   }
 }

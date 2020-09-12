@@ -1,6 +1,6 @@
 {
   "vendor": "vtex",
-  "name": "theme",
+  "name": "storebot",
   "version": "0.0.1",
   "builders": {
     "styles": "2.x",
@@ -21,6 +21,8 @@
     "vtex.shelf": "1.x",
     "vtex.menu": "2.x",
     "vtex.minicart": "2.x",
+    "vtex.add-to-cart-button": "0.x",
+    "vtex.store-image": "0.x",
     "vtex.product-details": "1.x",
     "vtex.product-kit": "1.x",
     "vtex.search-result": "3.x",

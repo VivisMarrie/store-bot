@@ -1,0 +1,13 @@
+.infoCardContainer {
+  padding: 1.5em;
+  border-bottom: 0em;
+}
+.infoCardContainer--aboutUs {
+  background-size: contain !important;
+}
+.infoCardHeadline {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: inline;
+  padding: 0.5rem;
+}
