@@ -82,13 +82,13 @@
       "textPosition": "CENTER",
       "textColor": "c-on-chung"
     }
-  }
+  },
 
-  /* "header-row#menu": {
+  "header-row#menu": {
     "children": [
       "header-spacer",
       "vtex.menu@2.x:menu#categories",
       "header-spacer"
     ]
-  }*/
+  }
 }
