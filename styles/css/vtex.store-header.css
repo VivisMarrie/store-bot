@@ -1,0 +1,8 @@
+.flexRow .mainHeader {
+    background-color: black;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--main-header) {
+    background-color: black;
+    color: white;
+}

@@ -9,9 +9,16 @@
   "header-layout.desktop": {
     "children": [
       "header-row#notification",
-      "header-row#main",
+      "flex-layout.row#desktop",
       "header-row#menu"
     ]
+  },
+
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#desktop"]
   },
 
   "header-layout.mobile": {
@@ -26,20 +33,54 @@
     "children": ["header-spacer", "rich-text#header", "header-spacer"]
   },
 
-  "header-row#main": {
+  "flex-layout.row#desktop": {
     "props": {
-      "sticky": true,
-      "inverted": true,
-      "fullWidth": false
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "main-header"
     },
     "children": [
-      "logo",
-      "header-spacer",
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#category-menu",
+      "flex-layout.col#spacer",
       "search-bar",
-      "header-spacer",
-      "minicart",
-      "login"
+      "flex-layout.col#spacer",
+      "locale-switcher",
+      "login",
+      "minicart.v2"
     ]
+  },
+
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#desktop"]
+  },
+
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://www.pngkit.com/png/full/913-9132388_png-file-svg-coding-laptop-icon.png",
+      "width": 80
+    }
+  },
+
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
   },
 
   "header-row#main-mobile": {
@@ -62,17 +103,6 @@
     "props": {
       "showIconProfile": true,
       "iconLabel": "Login"
-    }
-  },
-
-  "logo": {
-    "props": {
-      "title": "Devs Furiosos Store",
-      "url": "https://www.pngkit.com/png/full/913-9132388_png-file-svg-coding-laptop-icon.png",
-      "width": 80,
-      "height": 80,
-      "mobileWidth": 30,
-      "mobileHeight": 30
     }
   },
 
