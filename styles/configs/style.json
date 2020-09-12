@@ -1,26 +1,6 @@
 {
-  "typeScale": [
-    3,
-    2.25,
-    1.5,
-    1.25,
-    1,
-    0.875,
-    0.75
-  ],
-  "spacing": [
-    0.125,
-    0.25,
-    0.5,
-    0.75,
-    1,
-    1.5,
-    2,
-    3,
-    4,
-    8,
-    16
-  ],
+  "typeScale": [3, 2.25, 1.5, 1.25, 1, 0.875, 0.75],
+  "spacing": [0.125, 0.25, 0.5, 0.75, 1, 1.5, 2, 3, 4, 8, 16],
   "customMedia": [
     {
       "s": 20
@@ -80,7 +60,7 @@
     "background": {
       "base": "#ffffff",
       "base--inverted": "#03044e",
-      "action-primary": "#0F3E99",
+      "action-primary": "#D9359B",
       "action-secondary": "#eef3f7",
       "emphasis": "#f71963",
       "disabled": "#f2f4f5",
@@ -97,7 +77,7 @@
       "muted-5": "#f2f4f5"
     },
     "hover-background": {
-      "action-primary": "#072c75",
+      "action-primary": "#DA0188",
       "action-secondary": "#dbe9fd",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
@@ -113,7 +93,7 @@
       "muted-5": "#f2f4f5"
     },
     "active-background": {
-      "action-primary": "#0c389f",
+      "action-primary": "#DA0188",
       "action-secondary": "#dbe9fd",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
@@ -129,7 +109,7 @@
       "muted-5": "#f2f4f5"
     },
     "text": {
-      "action-primary": "#0F3E99",
+      "action-primary": "#D9359B",
       "action-secondary": "#eef3f7",
       "link": "#0F3E99",
       "emphasis": "#f71963",
@@ -150,7 +130,7 @@
       "link": "#0c389f"
     },
     "hover-text": {
-      "action-primary": "#072c75",
+      "action-primary": "#DA0188",
       "action-secondary": "#dbe9fd",
       "link": "#0c389f",
       "emphasis": "#dd1659",
@@ -172,7 +152,7 @@
       "warning--faded": "#fff6e0"
     },
     "border": {
-      "action-primary": "#0F3E99",
+      "action-primary": "#D9359B",
       "action-secondary": "#eef3f7",
       "emphasis": "#f71963",
       "disabled": "#e3e4e6",
@@ -189,7 +169,7 @@
       "muted-5": "#f2f4f5"
     },
     "hover-border": {
-      "action-primary": "#072c75",
+      "action-primary": "#DA0188",
       "action-secondary": "#dbe9fd",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
@@ -205,7 +185,7 @@
       "muted-5": "#f2f4f5"
     },
     "active-border": {
-      "action-primary": "#0c389f",
+      "action-primary": "#D9359B",
       "action-secondary": "#dbe9fd",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
@@ -262,46 +242,11 @@
       "warning--faded": "#1a1a1a"
     }
   },
-  "borderWidths": [
-    0,
-    0.125,
-    0.25,
-    0.5,
-    1,
-    2
-  ],
-  "borderRadius": [
-    0,
-    0.125,
-    0.25,
-    0.5,
-    1
-  ],
-  "widths": [
-    1,
-    2,
-    4,
-    8,
-    16
-  ],
-  "maxWidths": [
-    1,
-    2,
-    4,
-    8,
-    16,
-    32,
-    48,
-    64,
-    96
-  ],
-  "heights": [
-    1,
-    2,
-    4,
-    8,
-    16
-  ],
+  "borderWidths": [0, 0.125, 0.25, 0.5, 1, 2],
+  "borderRadius": [0, 0.125, 0.25, 0.5, 1],
+  "widths": [1, 2, 4, 8, 16],
+  "maxWidths": [1, 2, 4, 8, 16, 32, 48, 64, 96],
+  "heights": [1, 2, 4, 8, 16],
   "sizes": [
     {
       "name": "small",
@@ -317,11 +262,7 @@
     }
   ],
   "typography": {
-    "measure": [
-      30,
-      34,
-      20
-    ],
+    "measure": [30, 34, 20],
     "styles": {
       "heading-1": {
         "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
@@ -416,19 +357,5 @@
       }
     }
   },
-  "opacity": [
-    1,
-    0.9,
-    0.8,
-    0.7,
-    0.6,
-    0.5,
-    0.4,
-    0.3,
-    0.2,
-    0.1,
-    0.05,
-    0.025,
-    0
-  ]
+  "opacity": [1, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.2, 0.1, 0.05, 0.025, 0]
 }

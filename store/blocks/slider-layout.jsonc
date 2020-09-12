@@ -1,60 +1,116 @@
-{"slider-layout#home": {
-  "props": {
-    "itemsPerPage": {
-      "desktop": 5,
-      "tablet": 5,
-      "phone": 5
+{
+  "slider-layout#home": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 5,
+        "phone": 5
+      },
+      "autoplay": {
+        "timeout": 7000,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
     },
-    "autoplay": {
-      "timeout": 7000,
-      "stopOnHover": true
-    },
-    "infinite": true,
-    "showNavigationArrows": "desktopOnly",
-    "blockClass": "carousel"
+    "children": [
+      "image#brand1",
+      "image#brand2",
+      "image#brand3",
+      "image#brand4",
+      "image#brand5",
+      "image#brand6",
+      "image#brand7",
+      "image#brand8",
+      "image#brand9",
+      "image#brand10",
+      "image#brand11",
+      "image#brand12"
+    ]
   },
-  "children": ["image#brand1", "image#brand2", "image#brand3", "image#brand4", "image#brand5", "image#brand6"]
-},
 
   "image#brand1": {
     "props": {
-      "src": "https://hiringcoders14.vteximg.com.br/arquivos/ids/155400-100-100/casaco-azul.jpg",
-      "maxHeight": 400
+      "src": "https://cdn.shopify.com/s/files/1/2143/3217/t/2/assets/brand-nike.png",
+      "maxHeight": 80
     }
   },
-  
+
   "image#brand2": {
     "props": {
-      "src": "https://hiringcoders14.vteximg.com.br/arquivos/ids/155399-100-100/moletom.jpg",
-      "maxHeight": 400
+      "src": "https://logodix.com/logo/30289.png",
+      "maxHeight": 100
     }
   },
 
   "image#brand3": {
     "props": {
-      "src": "https://hiringcoders14.vteximg.com.br/arquivos/ids/155402-100-100/poloAzul.jpg",
-      "maxHeight": 400
+      "src": "https://i.pinimg.com/originals/1b/0d/57/1b0d57173070d0422192848c21634cca.png",
+      "maxHeight": 70
     }
   },
-  
+
   "image#brand4": {
     "props": {
-      "src": "https://hiringcoders14.vteximg.com.br/arquivos/ids/155401-100-100/polo-amarelo.jpg",
-      "maxHeight": 400
+      "src": "https://www.7.life/sf/wp-content/uploads/2018/10/Seven-by-MS-Dhoni-250-x-71-01.png",
+      "maxHeight": 70
     }
   },
 
   "image#brand5": {
     "props": {
-      "src": "https://hiringcoders14.vteximg.com.br/arquivos/ids/155403-100-100/jeansP.jpg",
-      "maxHeight": 400
+      "src": "https://cdn.shopify.com/s/files/1/0046/0691/8774/files/logo_2x_320x320_1594c7b6-37d2-483d-9201-4f10f6fefd8b.png",
+      "maxHeight": 60
     }
   },
-  
+
   "image#brand6": {
     "props": {
-      "src": "https://hiringcoders14.vteximg.com.br/arquivos/ids/155404-100-100/jeansG.jpg",
-      "maxHeight": 400
+      "src": "https://customers.seomanager.com/knowledgegraph/logo/lucy-yak_myshopify_com_logo.png",
+      "maxHeight": 100
+    }
+  },
+
+  "image#brand7": {
+    "props": {
+      "src": "https://cdn.shopify.com/s/files/1/1426/2042/files/png_diamond.png",
+      "maxHeight": 80
+    }
+  },
+
+  "image#brand8": {
+    "props": {
+      "src": "https://lofrev.net/wp-content/photos/2016/06/lacoste-logo-4-1.jpg",
+      "maxHeight": 100
+    }
+  },
+
+  "image#brand9": {
+    "props": {
+      "src": "https://logodix.com/logo/64244.png",
+      "maxHeight": 100
+    }
+  },
+
+  "image#brand10": {
+    "props": {
+      "src": "https://i.pinimg.com/originals/f4/ae/17/f4ae17e0fdef8361185405752c460bd5.png",
+      "maxHeight": 100
+    }
+  },
+
+  "image#brand11": {
+    "props": {
+      "src": "https://media.designrush.com/tinymce_images/73336/conversions/nars-logo-content.jpg",
+      "maxHeight": 100
+    }
+  },
+
+  "image#brand12": {
+    "props": {
+      "src": "https://logodix.com/logo/35595.png",
+      "maxHeight": 100
     }
   }
-}  
+}
