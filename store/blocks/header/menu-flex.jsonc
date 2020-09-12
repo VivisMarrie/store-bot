@@ -2,18 +2,7 @@
     "vtex.menu@2.x:submenu#major": {
       "children": ["flex-layout.row#major"]
     },
-  
-    "vtex.menu@2.x:menu#major": {
-      "children": [
-        "menu-item#refrigerators",
-        "menu-item#ovens",
-        "menu-item#washers"
-      ],
-      "props": {
-        "orientation": "vertical"
-      }
-    },
-  
+
     "flex-layout.row#major": {
       "children": ["flex-layout.col#menu", "flex-layout.col#img"]
     },
