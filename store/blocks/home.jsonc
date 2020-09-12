@@ -1,6 +1,6 @@
 {
   "store.home": {
-    "blocks": ["flex-layout.row", "shelf", "slider-layout#home"]
+    "blocks": ["countdown", "flex-layout.row", "shelf", "slider-layout#home"]
   },
   "flex-layout.row": {
     "children": ["info-card#clothes", "flex-layout.col"]
@@ -24,9 +24,7 @@
   "info-card#women": {
     "props": {
       //"imageUrl": "https://img.freepik.com/free-vector/stylish-girls-outdoors-set_74855-3788.jpg",
-
       "imageUrl": "https://i.pinimg.com/736x/c2/d3/90/c2d39028f764a84ac2931390c67c1461.jpg",
-
       "isFullModeStyle": true,
       "headline": "Roupas Femininas",
       "callToActionText": "Explore",
