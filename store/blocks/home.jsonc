@@ -1,5 +1,5 @@
 {
   "store.home": {
-    "blocks": ["info-card#home", "slider-layout#home", "newsletter"]
+    "blocks": ["info-card#home", "slider-layout#home"]
   }
 }

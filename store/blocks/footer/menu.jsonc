@@ -32,7 +32,7 @@
         "href": "/clothing/d",
         "noFollow": true,
         "tagTitle": "Clothing",
-        "text": "Clothing"
+        "text": "Roupas"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]

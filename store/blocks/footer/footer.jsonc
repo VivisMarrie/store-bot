@@ -4,7 +4,9 @@
   },
   "footer-layout.desktop": {
     "children": [
-      "flex-layout.row#footer-1-desktop"
+      "flex-layout.row#footer-1-desktop",
+      "newsletter",
+      "flex-layout.row#footer-2-desktop"
     ]
   },
   "flex-layout.row#footer-1-desktop": {
@@ -19,6 +21,20 @@
       "blockClass": "menu-row",
       "paddingTop": 6,
       "paddingBottom": 3
+    }
+  },
+  "flex-layout.row#footer-2-desktop": {
+    "children": ["rich-text#footer"],
+    "props": {
+      "blockClass": "credits"
+    }
+  },
+  "rich-text#footer": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Feito por Devs Furiosos",
+      "blockClass": "footer"
     }
   },
 
@@ -50,7 +66,8 @@
   "footer-layout.mobile": {
     "children": [
       "flex-layout.row#1-footer-mobile",
-      "flex-layout.row#2-footer-mobile"
+      "newsletter",
+      "rich-text#footer-mobile"
     ]
   },
   "flex-layout.row#2-footer-mobile": {
@@ -73,11 +90,21 @@
       "rowGap": 4
     }
   },
+
   "flex-layout.row#1-footer-mobile": {
     "props": {
       "paddingTop": 4,
       "paddingBottom": 4
     },
     "children": ["vtex.menu@2.x:menu#footer-mobile"]
+  },
+
+  "rich-text#footer-mobile": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Feito por Devs Furiosos",
+      "blockClass": "footer"
+    }
   }
 }
