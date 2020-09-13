@@ -16,9 +16,9 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/clothing",
+          "href": "/roupas",
           "noFollow": false,
-          "tagTitle": "Clothing",
+          "tagTitle": "Roupas",
           "text": "Roupas",
           "blockClass": "clothing"
         }
@@ -57,9 +57,9 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "blouses",
+          "href": "/blusas",
           "noFollow": false,
-          "tagTitle": "Blouses",
+          "tagTitle": "Blusas",
           "text": "Blusas"
         }
       }
@@ -73,9 +73,9 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/coats",
+          "href": "casacos",
           "noFollow": false,
-          "tagTitle": "Coats",
+          "tagTitle": "Casacos",
           "text": "Casacos"
         }
       }
@@ -89,9 +89,9 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/hats",
+          "href": "chapaeus",
           "noFollow": false,
-          "tagTitle": "Hats",
+          "tagTitle": "Chapeus",
           "text": "Chapéus"
         }
       }
@@ -105,9 +105,9 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/pants",
+          "href": "calcas",
           "noFollow": false,
-          "tagTitle": "Pants",
+          "tagTitle": "Calças",
           "text": "Calças"
         }
       }
@@ -123,7 +123,7 @@
           "type": "internal",
           "href": "/shoes",
           "noFollow": false,
-          "tagTitle": "Shoes",
+          "tagTitle": "Sapatos",
           "text": "Sapatos"
         }
       }
