@@ -15,7 +15,7 @@
       }
     }
   },
-  "product-summary.shelf": {
+  /* "product-summary.shelf": {
     "children": [
       "product-summary-image",
       "product-summary-name",
@@ -23,7 +23,7 @@
       "product-summary-price",
       "add-to-cart-button"
     ]
-  },
+  }, */
   "add-to-cart-button": {
     "props": {
       "text": "Adicionar ao Carrinho",

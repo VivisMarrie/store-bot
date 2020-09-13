@@ -5,8 +5,7 @@
   "builders": {
     "styles": "2.x",
     "store": "0.x",
-    "assets": "0.x",
-    "sitemap": "0.x"
+    "assets": "0.x"
   },
   "scripts": {
     "postreleasy": "vtex publish --verbose"
