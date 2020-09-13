@@ -22,7 +22,7 @@
   },
 
   "header-row#notification": {
-    "children": ["header-spacer", "rich-text#header", "header-spacer"]
+    "children": ["header-spacer", "info-card#header", "header-spacer"]
   },
 
   "flex-layout.row#desktop": {
@@ -120,14 +120,6 @@
     "props": {
       "showIconProfile": true,
       "iconLabel": "Login"
-    }
-  },
-
-  "rich-text#header": {
-    "props": {
-      "text": "### News every week!",
-      "textPosition": "CENTER",
-      "textColor": "c-on-chung"
     }
   },
 
