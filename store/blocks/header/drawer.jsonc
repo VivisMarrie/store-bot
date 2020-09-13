@@ -1,42 +1,16 @@
 {
-    "drawer": {
-      "children": ["vtex.menu@2.x:menu#drawer"]
-    },
-  
-    "vtex.menu@2.x:menu#drawer": {
-      "children": [
-        "menu-item#major-appliances-acc"
-      ],
-      "props": {
-        "orientation": "vertical"
-      }
-    },
+  "drawer": {
+    "children": ["menu#drawer"]
+  },
 
-     "menu-item#major-appliances-acc": {
-      "props": {
-        "type": "category",
-        "highlight": true,
-        "itemProps": {
-          "categoryId": 1,
-          "text": "Major Appliances"
-        }
-      },
-      "blocks": ["vtex.menu@2.x:submenu.accordion#major"]
-    },
-  
-    "vtex.menu@2.x:submenu.accordion#major": {
-      "children": ["vtex.menu@2.x:menu#major"]
-    },
-    
-    "vtex.menu@2.x:menu#major":{
-      "children": [
-          "menu-item#refrigerators",
-          "menu-item#ovens",
-          "menu-item#washers"
-        ],
-        "props":{
-            "orientation": "vertical"
-        }
+  "menu#drawer": {
+    "children": [
+      "menu-item#category-apparel",
+      "menu-item#more"
+    ],
+    "props": {
+      "orientation": "vertical"
     }
+  }
   }
   

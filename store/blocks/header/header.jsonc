@@ -21,14 +21,6 @@
     "children": ["flex-layout.row#desktop"]
   },
 
-  "header-layout.mobile": {
-    "children": [
-      "header-row#notification",
-      "header-row#main-mobile",
-      "header-row#search"
-    ]
-  },
-
   "header-row#notification": {
     "children": ["header-spacer", "rich-text#header", "header-spacer"]
   },
@@ -65,7 +57,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://www.pngkit.com/png/full/913-9132388_png-file-svg-coding-laptop-icon.png",
+      "url": "assets/logo.jpeg",
       "width": 80
     }
   },
@@ -83,15 +75,40 @@
     }
   },
 
-  "header-row#main-mobile": {
-    "children": ["drawer", "logo", "header-spacer", "minicart", "login"],
-
+  "header-layout.mobile": {
+    "children": ["sticky-layout#1-mobile"]
+  },
+  "sticky-layout#1-mobile": {
     "props": {
-      "sticky": true,
-      "inverted": true
+      "sticky": true
+    },
+    "children": ["header-row#notification", "header-row#main-mobile", "header-row#search"]
+  },
+
+  "header-row#main-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "header-spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
     }
   },
 
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/logo.jpeg",
+      "width": 40
+    }
+  },
   "header-row#search": {
     "children": ["search-bar"],
     "props": {
