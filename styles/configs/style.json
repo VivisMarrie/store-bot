@@ -242,19 +242,19 @@
       "warning--faded": "#1a1a1a"
     }
   },
-  "borderWidths": [0, 0.125, 0.25, 0.5, 1, 2],
-  "borderRadius": [0, 0.125, 0.25, 0.5, 1],
+  "borderWidths": [0, 0.09, 0.25, 0.5, 1, 2],
+  "borderRadius": [0, 0.125, 0.0, 0.5, 1],
   "widths": [1, 2, 4, 8, 16],
   "maxWidths": [1, 2, 4, 8, 16, 32, 48, 64, 96],
   "heights": [1, 2, 4, 8, 16],
   "sizes": [
     {
       "name": "small",
-      "value": 2
+      "value": 1.5
     },
     {
       "name": "regular",
-      "value": 2.5
+      "value": 2
     },
     {
       "name": "large",
