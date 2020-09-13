@@ -1,8 +1,94 @@
 {
     "store.custom#about-us": {
       "blocks": [
-        "tab-layout#home"
+        "tab-layout#home",
+        "flex-layout.row#about-us1",
+        "flex-layout.row#about-us2",
+        "flex-layout.row#about-us3",
+        "flex-layout.row#about-us4",
+        "flex-layout.row#about-us5"
       ]
+    },
+    "flex-layout.row#about-us1": {
+      "children": [
+        //"image#participante1",
+        "flex-layout.col#text-about-us1",
+        "image#participante1"
+      ]
+    },
+    "flex-layout.col#text-about-us1": {
+      "children": [
+        "rich-text#about-title1",
+        "rich-text#about-content1"
+      ],
+          "props": {
+        "preventVerticalStretch": true
+      }
+    },
+    "flex-layout.row#about-us2": {
+      "children": [
+        "flex-layout.col#text-about-us2",
+        "image#participante2"
+      ]
+    },
+    "flex-layout.col#text-about-us2": {
+      "children": [
+        "rich-text#about-title2",
+        "rich-text#about-content2"
+      ],
+          "props": {
+        "preventVerticalStretch": true
+      }
+    },
+
+    "flex-layout.row#about-us3": {
+      "children": [
+        "flex-layout.col#text-about-us3",
+        "image#participante3"
+      ]
+    },
+    "flex-layout.col#text-about-us3": {
+      "children": [
+        "rich-text#about-title3",
+        "rich-text#about-content3"
+      ],
+          "props": {
+        "preventVerticalStretch": true
+      }
+    },
+
+    "flex-layout.row#about-us4": {
+      "children": [
+        //"image#participante1",
+        "flex-layout.col#text-about-us4",
+        "image#participante4"
+      ]
+    },
+    "flex-layout.col#text-about-us4": {
+      "children": [
+        "rich-text#about-title4",
+        "rich-text#about-content4"
+      ],
+          "props": {
+        "preventVerticalStretch": true
+      }
+    },
+
+    "flex-layout.row#about-us5": {
+      "children": [
+        //"image#participante5",
+        "flex-layout.col#text-about-us5",
+        "image#participante5"
+      ]
+    },
+    "flex-layout.col#text-about-us5": {
+      "children": [
+        "rich-text#about-title5",
+        "rich-text#about-content5"
+      ],
+          "props": {
+        "preventVerticalStretch": true
+      }
     },
 
     "tab-layout#home": {
@@ -60,10 +146,107 @@
 
     "rich-text#home1": {
         "props": {
-          "text": "# **Our history** \n ### **We were born from an internal VTEX hackathon!** \n That's right. VTEX's first Hackatheme (store theme hackathon) had 3 finalists. One of them was FlatFlat, the store that you're accessing now. FlatFlat was created by the engineers Afonso Praça and Sávio Muniz, together with designers Lucas Falcão and Augusto Barbosa, and new business director Maurício Baum. As the store was created by profissionals having the most diverse backgrounds, the result was an obvious one: they became the finalists with coolest layout among participants.",
+          "text": "# **Sobre nós** \n Saiba um pouco mais sobre cada integrante da nossa equipe, sua tragetória e suas maiores experiências.",
           "textPosition": "CENTER"
         //   "font": "t-heading-3"
         }
+    },
+    "rich-text#about-title1": {
+      "props": {
+        "text":
+        "## BEATRIZ ANDRADE DE MIRANDA"
+      }
+    },
+    "rich-text#about-title2": {
+      "props": {
+        "text":
+        "## BRUNO DE ALCÂNTARA CORRAL"
+      }
+    },
+
+    "rich-text#about-title3": {
+      "props": {
+        "text":"## CAMILA LIMA CHUNG"
+      }
+    },
+
+    "rich-text#about-title4": {
+      "props": {
+        "text":"## CAMILO ANDRÉS PARRA"
+      }
+    },
+
+    "rich-text#about-title5": {
+      "props": {
+        "text":"## ELOISA SAYURI TACHIBANA"
+      }
+    },
+
+    "rich-text#about-content1": {
+      "props": {
+        "text":
+        "Graduanda em Ciência da Computação na UFCG, gosta de séries e de viajar. Morando em Campina Grande, Paraíba, fez e continua fazendo projetos, tanto na faculdade como pessoal. Suas linguagens de programação são Python, Java, HTML5, CSS3, Bootstrap, Javascript, React JS e NodeJS. Junto com a sua equipe, pretende aprender e ajudar sempre, adquirindo experiência e conhecimento colaborando em grupo. Para ela a experiência no hiring coders tem sido transformadora e enriquecedora, e espera o mesmo no VTEX Trainning Week. E seu maior medo é ficar estagnada e não conseguir conquistar os seus objetivos."
+      }
+    },
+    "rich-text#about-content2": {
+      "props": {
+        "text":
+        "Graduado em Ciências da Computação, no seu tempo livre assiste filmes e séries. Reside em Bauru, São Paulo. Estagiou com foco em desenvolvimento e em suporte ao usuário. Já desenvolveu projetos pessoais e fez cursos B7Web.com e Rocketseat. Possui conhecimento em C++, HTML5, CSS3, Bootstrap, JavaScript, React.Js, Node.Js, TypeScript, PHP, SQL Server, MySQL, Java, Python e Android Studio. Pretende colocar em prática tudo o que eu já aprendeu e também compartilhar conhecimentos. Seu maior medo é ficar estagnado, não evoluir, sentir como um profissional que não conseguiu colocar os seus conhecimentos em prática."
+      }
+    },
+
+    "rich-text#about-content3": {
+      "props": {
+        "text":
+        "Formada em engenharia mecânica, mestra em modelagem computacional, pela UERJ, e futura desenvolvedora fullstack. Gosta de jogar video game e ver séries no tempo livre. Reside na cidade do Rio de Janeiro, não possui experiência profissional na área, fez alguns cursos na Udemy e outros gratuitos. Seu conhecimento em programação é C, C++, HTML5, CSS3, Bootstrap, JavaScript, React, Node, TypeScript e GraphQL. Pretende colocar em prática tudo que aprendeu, aprender e reaprender algo novo, ajudar e evoluir com o grupo. E seu maior medo é ficar estagnada, ver o mundo evoluir e ficar para trás."
+      }
+    },
+
+    "rich-text#about-content4": {
+      "props": {
+        "text":
+        "Licenciado em Informática e tentando tornar um fullstack, tem como hobbie ver séries e viajar. Mora em Bogotá na Colômbia. Trabalha como técnico de suporte remoto e docente em Informática. Possui projetos pessoais, entende de PHP (Laravel), HTML5, CSS3, javascript (Vuejs), Mysql, Bootstrap e Jquery. Pretende contribuir para o sucesso do grupo e tornar-se um melhor profissional colocando a mão na massa. E seu maior medo é ficar pra trás, não cumprir suasexpectativas."
+      }
+    },
+
+    "rich-text#about-content5": {
+      "props": {
+        "text":
+        "Tecnóloga em Banco de Dados pela Fatec São José dos Campos, ama viajar, cachorro e gatinha. Mora em São Paulo na cidade São José dos Campos. Trabalhou como Desenvolvedora, atualmente trabalha e aprende C# e SAP. Tem experiência em web e mobile, além de saber JavaScript, Swift, Nodejs, Reactjs, React Native e SQL. Pretende aprender, praticar o conhecimento e ganhar mais experiência. Seu maior medo é ficar estagnada, ver todos à sua volta evoluindo e você não."
+      }
+    },
+
+    "image#participante1": {
+      "props": {
+        "src": "https://media-exp1.licdn.com/dms/image/C4D03AQE5BU9-JlFMDw/profile-displayphoto-shrink_200_200/0?e=1605744000&v=beta&t=3oAnNkR85xt2R0WFut-7dByYp9RQ86C9cZEtIGFyOrQ",
+        "maxHeight": "400px"
+      }
+    },
+
+    "image#participante2": {
+      "props": {
+        "src": "https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F65821497_1642560719214184_8444303714260353024_n.jpg%3Foh%3D9c02d8b2f00d54e3b7d0d6c7bcd7883b%26oe%3D5F62A973&t=l&u=5514997192929%40c.us&i=1567690109&n=T8uonBYv%2FvQJKNLbYllGreTCylFdpEqJfYg3MXJez1Q%3D",
+        "maxHeight": "300px"
+      }
+    },
+    "image#participante3": {
+      "props": {
+        "src": "https://media-exp1.licdn.com/dms/image/C4E03AQGZQpUS2GI2Vw/profile-displayphoto-shrink_200_200/0?e=1605744000&v=beta&t=S4bIdXfXDlFC7AUyZ0vau-XdnWlxCPnqdUXEg8h335o",
+        "maxHeight": "300px"
+      }
+    },
+    "image#participante4": {
+      "props": {
+        "src": "https://avatars2.githubusercontent.com/u/19290557?s=460&u=373edc684cbcf065e3075f9212cb5799892b1146&v=4",
+        "maxHeight": "300px"
+      }
+    },
+
+    "image#participante5": {
+      "props": {
+        "src": "https://avatars0.githubusercontent.com/u/11522459?s=460&u=9b367157c5a3880b597fd40774fb0b4059aef0db&v=4",
+        "maxHeight": "300px"
+      }
     },
 
     "iframe": {
