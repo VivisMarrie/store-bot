@@ -27,7 +27,7 @@
         "paddingRight": 4,
         "horizontalAlign": "right"
       },
-      "children": ["image#menu", "rich-text#header"]
+      "children": ["image#menu", "info-card#header"]
     },
     "image#menu": {
       "props": {

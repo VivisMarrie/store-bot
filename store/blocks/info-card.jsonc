@@ -5,10 +5,18 @@
             "isFullModeStyle": false,
             "textPosition": "left",
             "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-            "headline": "Clearance Sale",
             "callToActionText": "DISCOVER",
             "callToActionUrl": "/sale/d",
             "blockClass": "chung",
+            "textAlignment": "center"
+        }
+    },
+    "info-card#header": {
+        "props": {
+            "id": "info-card-header",
+            "isFullModeStyle": false,
+            "textPosition": "center ",
+            "imageUrl": "assets/DevsFuriosos1.jpeg",
             "textAlignment": "center"
         }
     }
