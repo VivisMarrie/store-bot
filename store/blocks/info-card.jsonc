@@ -10,14 +10,5 @@
             "blockClass": "chung",
             "textAlignment": "center"
         }
-    },
-    "info-card#header": {
-        "props": {
-            "id": "info-card-header",
-            "isFullModeStyle": false,
-            "textPosition": "center ",
-            "imageUrl": "assets/DevsFuriosos1.jpeg",
-            "textAlignment": "center"
-        }
     }
 }    

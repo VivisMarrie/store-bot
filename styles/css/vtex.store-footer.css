@@ -4,5 +4,6 @@
 
 :global(.vtex-menu-2-x-styledLinkContent) {
     font-weight: bold;
+    color: white;
 }
 
