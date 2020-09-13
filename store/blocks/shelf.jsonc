@@ -14,21 +14,20 @@
         "titleText": "Itens mais Vendidos"
       }
     }
-  }/* ,
+  },
   "product-summary.shelf": {
     "children": [
       "product-summary-image",
       "product-summary-name",
       "product-summary-sku-selector",
       "product-summary-price",
-      "product-summary-buy-button"
+      "add-to-cart-button"
     ]
-  }*/,
-  "product-summary-buy-button": {
+  },
+  "add-to-cart-button": {
     "props": {
-      "isOneClickBuy": false,
-      "displayBuyButton": "displayButtonAlways",
-      "buyButtonText": "Adicionar ao Carrinho"
+      "text": "Adicionar ao Carrinho",
+      "customToastUrl": "/checkout/#/cart"
     }
   }
 }

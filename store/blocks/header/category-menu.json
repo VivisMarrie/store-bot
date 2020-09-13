@@ -4,88 +4,127 @@
         "experimentalOptimizeRendering": true
       },
       "children": [
-        "menu-item#category-apparel",
+        "menu-item#category-clothing",
         "menu-item#more"
       ]
     },
-    "menu-item#category-apparel": {
+    "menu-item#category-clothing": {
       "props": {
-        "id": "menu-item-category-apparel",
+        "id": "menu-item-category-clothing",
         "type": "custom",
         "iconId": null,
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/apparel---accessories/",
+          "href": "/clothing",
           "noFollow": false,
-          "tagTitle": "Apparel & Accessories",
-          "text": "Apparel & Accessories"
+          "tagTitle": "Clothing",
+          "text": "Roupas",
+          "blockClass": "clothing"
         }
       },
       "blocks": [
-        "vtex.menu@2.x:submenu#category-apparel"
+        "vtex.menu@2.x:submenu#category-clothing"
       ]
     },
-    "vtex.menu@2.x:submenu#category-apparel": {
+    "vtex.menu@2.x:submenu#category-clothing": {
       "props": {
         "width": "auto"
       },
       "children": [
-        "vtex.menu@2.x:menu#category-apparel"
+        "vtex.menu@2.x:menu#category-clothing"
       ]
     },
-    "vtex.menu@2.x:menu#category-apparel": {
+    "vtex.menu@2.x:menu#category-clothing": {
       "props": {
-        "orientation": "vertical"
+        "orientation": "vertical",
+        "blockClass": "category-clothing"
       },
       "children": [
-        "menu-item#category-apparel-clothing",
-        "menu-item#category-apparel-accessories",
-        "menu-item#category-apparel-eyeglasses"
+        "menu-item#category-blouses",
+        "menu-item#category-coats",
+        "menu-item#category-pants",
+        "menu-item#category-hats",
+        "menu-item#category-shoes"
       ]
     },
-    "menu-item#category-apparel-clothing": {
+
+    "menu-item#category-blouses": {
       "props": {
-        "id": "menu-item-category-apparel-clothing",
+        "id": "menu-item-category-blouses",
         "type": "custom",
         "iconId": null,
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/apparel---accessories/clothing/",
+          "href": "blouses",
           "noFollow": false,
-          "tagTitle": "Clothing",
-          "text": "Clothing"
+          "tagTitle": "Blouses",
+          "text": "Blusas"
         }
       }
     },
-    "menu-item#category-apparel-accessories": {
+
+    "menu-item#category-coats": {
       "props": {
-        "id": "menu-item-category-apparel-accessories",
+        "id": "menu-item-category-coats",
         "type": "custom",
         "iconId": null,
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/apparel---accessories/accessories/",
+          "href": "/coats",
           "noFollow": false,
-          "tagTitle": "Accessories",
-          "text": "Accessories"
+          "tagTitle": "Coats",
+          "text": "Casacos"
         }
       }
     },
-    "menu-item#category-apparel-eyeglasses": {
+
+    "menu-item#category-hats": {
       "props": {
-        "id": "menu-item-category-apparel-eyeglasses",
+        "id": "menu-item-category-hats",
         "type": "custom",
         "iconId": null,
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/apparel---accessories/eyeglasses/",
+          "href": "/hats",
           "noFollow": false,
-          "tagTitle": "Eyeglasses",
-          "text": "Eyeglasses"
+          "tagTitle": "Hats",
+          "text": "Chapéus"
+        }
+      }
+    },
+
+    "menu-item#category-pants": {
+      "props": {
+        "id": "menu-item-category-pants",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/pants",
+          "noFollow": false,
+          "tagTitle": "Pants",
+          "text": "Calças"
+        }
+      }
+    },
+
+    "menu-item#category-shoes": {
+      "props": {
+        "id": "menu-item-category-shoes",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/shoes",
+          "noFollow": false,
+          "tagTitle": "Shoes",
+          "text": "Sapatos"
         }
       }
     },
@@ -101,7 +140,7 @@
           "href": "#",
           "noFollow": true,
           "tagTitle": "More",
-          "text": "More"
+          "text": "Saiba Mais"
         }
       },
       "blocks": [
@@ -152,7 +191,7 @@
           "href": "/about-us",
           "noFollow": true,
           "tagTitle": "About us",
-          "text": "About us"
+          "text": "Sobre nós"
         }
       }
     },

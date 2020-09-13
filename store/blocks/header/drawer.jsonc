@@ -5,7 +5,7 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-apparel",
+      "menu-item#category-clothing",
       "menu-item#more"
     ],
     "props": {
