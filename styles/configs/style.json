@@ -59,7 +59,7 @@
   "semanticColors": {
     "background": {
       "base": "#ffffff",
-      "base--inverted": "#03044e",
+      "base--inverted": "#c21380",
       "action-primary": "#D9359B",
       "action-secondary": "#eef3f7",
       "emphasis": "#f71963",

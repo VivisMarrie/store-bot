@@ -1,7 +1,6 @@
 {
   "store.home": {
-    "blocks": ["slider-layout#home"]
-    //"countdown", "shelf","flex-layout.row", "shelf", 
+    "blocks": ["flex-layout.row", "shelf", "slider-layout#home"]
   },
   "flex-layout.row": {
     "children": ["info-card#clothes", "flex-layout.col"]
