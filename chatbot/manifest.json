@@ -1,7 +1,7 @@
 {
   "vendor": "hiringcoders14",
   "name": "countdown",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "title": "Countdown",
   "description": "Countdown component",
   "defaultLocale": "pt-BR",
