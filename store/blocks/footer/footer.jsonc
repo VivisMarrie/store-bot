@@ -66,6 +66,7 @@
   "footer-layout.mobile": {
     "children": [
       "flex-layout.row#1-footer-mobile",
+      "flex-layout.row#2-footer-mobile",
       "newsletter",
       "rich-text#footer-mobile"
     ]
@@ -73,6 +74,7 @@
   "flex-layout.row#2-footer-mobile": {
     "children": ["flex-layout.col#footer-1-mobile"],
     "props": {
+      "horizontalAlign": "center",
       "blockClass": "payment-methods",
       "paddingTop": 4,
       "paddingBottom": 4
@@ -80,8 +82,8 @@
   },
   "flex-layout.col#footer-1-mobile": {
     "children": [
-      "accepted-payment-methods",
-      "social-networks"
+      "social-networks",
+      "accepted-payment-methods"
     ],
     "props": {
       "blockClass": "payment-methods",
