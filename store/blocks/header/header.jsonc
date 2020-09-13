@@ -9,8 +9,7 @@
   "header-layout.desktop": {
     "children": [
       "header-row#notification",
-      "flex-layout.row#desktop",
-      "header-row#menu"
+      "flex-layout.row#desktop"
     ]
   },
 
@@ -22,7 +21,7 @@
   },
 
   "header-row#notification": {
-    "children": ["header-spacer", "info-card#header", "header-spacer"]
+    "children": ["header-spacer", "image#header", "header-spacer"]
   },
 
   "flex-layout.row#desktop": {
@@ -123,11 +122,10 @@
     }
   },
 
-  "header-row#menu": {
-    "children": [
-      "header-spacer",
-      "vtex.menu@2.x:menu#categories",
-      "header-spacer"
-    ]
+  "image#header": {
+    "props": {
+      "src": "assets/DevsFuriosos2.jpeg",
+      "maxHeight": 200
+    }
   }
 }

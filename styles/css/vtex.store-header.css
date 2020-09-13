@@ -1,3 +1,18 @@
-:global(.vtex-flex-layout-0-x-flexRow--main-header) {
+:global(.vtex-flex-layout-0-x-flexRow--main-header),
+:global(.vtex-menu-2-x-submenuWrapper--isOpen),
+:global(.vtex-store-drawer-0-x-opened),
+:global(.vtex-store-header-2-x-headerRowContainer--main-header-mobile) {
     background-color: #1C1C1C;
+}
+
+:global(.vtex-store-drawer-0-x-drawerContent) {
+    overflow-y: visible;
+} 
+
+/* :global(.vtex-menu-2-x-submenuContainer) {
+    margin-top: 2.5rem;
+}  */
+
+:global(.vtex-flex-layout-0-x-flexRow--main-header) {
+    margin-bottom: 0.8rem;
 }
