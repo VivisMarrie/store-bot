@@ -1,0 +1,8 @@
+.footerLayout {
+    background-color: #BFBFBF;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent) {
+    font-weight: bold;
+}
+

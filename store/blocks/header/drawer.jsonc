@@ -1,0 +1,16 @@
+{
+  "drawer": {
+    "children": ["menu#drawer"]
+  },
+
+  "menu#drawer": {
+    "children": [
+      "menu-item#category-apparel",
+      "menu-item#more"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+  }
+  

@@ -1,0 +1,136 @@
+{
+  "vtex.menu@2.x:menu#footer-clothing": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [ 
+      "menu-item#blouses",
+      "menu-item#coats",
+      "menu-item#hats",
+      "menu-item#pants",
+      "menu-item#shoes"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#clothing-mobile"
+    ]
+  },
+
+  "menu-item#clothing-mobile": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Clothing",
+        "text": "Roupas"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
+  },
+  "vtex.menu@2.x:submenu.accordion#clothing": {
+    "children": ["vtex.menu@2.x:menu#clothing-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#clothing-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+        "menu-item#blouses",
+        "menu-item#coats",
+        "menu-item#hats",
+        "menu-item#pants",
+        "menu-item#shoes"
+    ]
+  },
+
+  "menu-item#blouses": {
+    "props": {
+      "id": "menu-item-blouses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/blouses",
+        "noFollow": false,
+        "tagTitle": "blouses",
+        "text": "Blusas"
+      }
+    }
+  },
+
+  "menu-item#coats": {
+    "props": {
+      "id": "menu-item-coats",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "coats",
+        "noFollow": false,
+        "tagTitle": "coats",
+        "text": "Casacos"
+      }
+    }
+  },
+
+  "menu-item#hats": {
+    "props": {
+      "id": "menu-item-hats",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hats",
+        "noFollow": false,
+        "tagTitle": "hats",
+        "text": "Chapéus"
+      }
+    }
+  },
+
+  "menu-item#pants": {
+    "props": {
+      "id": "menu-item-pants",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pants",
+        "noFollow": false,
+        "tagTitle": "pants",
+        "text": "Calças"
+      }
+    }
+  },
+
+  "menu-item#shoes": {
+    "props": {
+      "id": "menu-item-shoes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/shoes",
+        "noFollow": false,
+        "tagTitle": "shoes",
+        "text": "Sapatos"
+      }
+    }
+  }
+}  

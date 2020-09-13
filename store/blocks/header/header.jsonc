@@ -1,0 +1,141 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+
+  "header-layout.desktop": {
+    "children": [
+      "header-row#notification",
+      "flex-layout.row#desktop",
+      "header-row#menu"
+    ]
+  },
+
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#desktop"]
+  },
+
+  "header-row#notification": {
+    "children": ["header-spacer", "rich-text#header", "header-spacer"]
+  },
+
+  "flex-layout.row#desktop": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "main-header"
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#category-menu",
+      "flex-layout.col#spacer",
+      "search-bar",
+      "flex-layout.col#spacer",
+      "locale-switcher",
+      "login",
+      "minicart.v2"
+    ]
+  },
+
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#desktop"]
+  },
+
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/logo.jpeg",
+      "width": 80
+    }
+  },
+
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+
+  "header-layout.mobile": {
+    "children": ["sticky-layout#1-mobile"]
+  },
+  "sticky-layout#1-mobile": {
+    "props": {
+      "sticky": true
+    },
+    "children": ["header-row#notification", "header-row#main-mobile", "header-row#search"]
+  },
+
+  "header-row#main-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "header-spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/logo.jpeg",
+      "width": 40
+    }
+  },
+  "header-row#search": {
+    "children": ["search-bar"],
+    "props": {
+      "sticky": true
+    }
+  },
+
+  "login": {
+    "props": {
+      "showIconProfile": true,
+      "iconLabel": "Login"
+    }
+  },
+
+  "rich-text#header": {
+    "props": {
+      "text": "### News every week!",
+      "textPosition": "CENTER",
+      "textColor": "c-on-chung"
+    }
+  },
+
+  "header-row#menu": {
+    "children": [
+      "header-spacer",
+      "vtex.menu@2.x:menu#categories",
+      "header-spacer"
+    ]
+  }
+}

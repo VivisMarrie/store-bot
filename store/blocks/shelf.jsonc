@@ -14,7 +14,7 @@
         "titleText": "Itens mais Vendidos"
       }
     }
-  },
+  }/* ,
   "product-summary.shelf": {
     "children": [
       "product-summary-image",
@@ -23,7 +23,7 @@
       "product-summary-price",
       "product-summary-buy-button"
     ]
-  },
+  }*/,
   "product-summary-buy-button": {
     "props": {
       "isOneClickBuy": false,
