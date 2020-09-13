@@ -1,10 +1,6 @@
 {
   "store.home": {
-<<<<<<< HEAD
-    "blocks": [ "flex-layout.row", "shelf", "slider-layout#home"]
-=======
-    "blocks": ["flex-layout.row", "shelf", "slider-layout#home"]
->>>>>>> ed414f7acd488d44f0b5003828e4dc4ea2374830
+    "blocks": ["countdown", "flex-layout.row", "shelf", "slider-layout#home"]
     //"countdown", "shelf",
   },
   "flex-layout.row": {
