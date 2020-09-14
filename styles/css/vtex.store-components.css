@@ -22,3 +22,16 @@
   width: 35rem;
 }
 
+.shareContainer {
+  text-align: center;
+  margin-top: 0.8rem;
+}
+
+.shareButtons {
+  justify-content: center;
+}
+
+.shareSocialButton {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
