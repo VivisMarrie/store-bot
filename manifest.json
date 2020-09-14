@@ -1,7 +1,7 @@
 {
   "vendor": "hiringcoders14",
   "name": "theme",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
