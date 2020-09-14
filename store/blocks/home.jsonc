@@ -1,6 +1,6 @@
 {
   "store.home": {
-    "blocks": ["flex-layout.row", "shelf", "slider-layout#home"]
+    "blocks": ["chatbot", "flex-layout.row", "shelf", "slider-layout#home"]
   },
   "flex-layout.row": {
     "children": ["info-card#clothes", "flex-layout.col"]
