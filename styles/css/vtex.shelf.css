@@ -13,7 +13,8 @@
   font-size: x-large;
 }
 
-:global(.vtex-flex-layout-0-x-flexRowContent) {
+:global(.vtex-store-components-3-x-container) 
+  :global(.vtex-flex-layout-0-x-flexRowContent) {
   justify-content: center;
 }
 
