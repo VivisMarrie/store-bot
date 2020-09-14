@@ -42,16 +42,20 @@
     "props": {
       "socialNetworks": [
         {
-          "name": "Facebook"
+          "name": "Facebook",
+          "url": "#"
         },
         {
-          "name": "Instagram"
+          "name": "Instagram",
+          "url": "#"
         },
         {
-          "name": "Twitter"
+          "name": "Twitter",
+          "url": "#"
         },
         {
-          "name": "Youtube"
+          "name": "Youtube",
+          "url": "#"
         }
       ]
     }

@@ -16,7 +16,7 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/roupas",
+          "href": "#",
           "noFollow": false,
           "tagTitle": "Roupas",
           "text": "Roupas",
@@ -41,97 +41,17 @@
         "blockClass": "category-clothing"
       },
       "children": [
-        "menu-item#category-blouses",
-        "menu-item#category-coats",
-        "menu-item#category-pants",
-        "menu-item#category-hats",
-        "menu-item#category-shoes"
+        "menu-item#blouses",
+        "menu-item#coats",
+        "menu-item#pants",
+        "menu-item#hats",
+        "menu-item#shoes"
       ]
-    },
-
-    "menu-item#category-blouses": {
-      "props": {
-        "id": "menu-item-category-blouses",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/blusas",
-          "noFollow": false,
-          "tagTitle": "Blusas",
-          "text": "Blusas"
-        }
-      }
-    },
-
-    "menu-item#category-coats": {
-      "props": {
-        "id": "menu-item-category-coats",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "casacos",
-          "noFollow": false,
-          "tagTitle": "Casacos",
-          "text": "Casacos"
-        }
-      }
-    },
-
-    "menu-item#category-hats": {
-      "props": {
-        "id": "menu-item-category-hats",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "chapaeus",
-          "noFollow": false,
-          "tagTitle": "Chapeus",
-          "text": "Chapéus"
-        }
-      }
-    },
-
-    "menu-item#category-pants": {
-      "props": {
-        "id": "menu-item-category-pants",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "calcas",
-          "noFollow": false,
-          "tagTitle": "Calças",
-          "text": "Calças"
-        }
-      }
-    },
-
-    "menu-item#category-shoes": {
-      "props": {
-        "id": "menu-item-category-shoes",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/shoes",
-          "noFollow": false,
-          "tagTitle": "Sapatos",
-          "text": "Sapatos"
-        }
-      }
     },
 
     "menu-item#more": {
       "props": {
-        "id": "menu-item-custom-sale",
+        "id": "menu-item-more",
         "type": "custom",
         "iconId": null,
         "highlight": false,
@@ -139,7 +59,7 @@
           "type": "internal",
           "href": "#",
           "noFollow": true,
-          "tagTitle": "More",
+          "tagTitle": "Saiba Mais",
           "text": "Saiba Mais"
         }
       },
@@ -185,7 +105,7 @@
           "type": "internal",
           "href": "/about-us",
           "noFollow": true,
-          "tagTitle": "About us",
+          "tagTitle": "Sobre nos",
           "text": "Sobre nós"
         }
       }
@@ -198,7 +118,7 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/faq",
+          "href": "#",
           "noFollow": true,
           "tagTitle": "FAQ",
           "text": "FAQ"
