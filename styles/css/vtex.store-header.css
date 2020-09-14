@@ -1,5 +1,4 @@
 :global(.vtex-flex-layout-0-x-flexRow--main-header),
-:global(.vtex-store-drawer-0-x-opened),
 :global(.vtex-store-header-2-x-headerRowContainer--main-header-mobile) {
     background-color: #1C1C1C;
 }
@@ -10,6 +9,10 @@
 
 :global(.vtex-flex-layout-0-x-flexRow--main-header) {
     margin-bottom: 0.8rem;
+}
+
+:global(.vtex-store-drawer-0-x-opened) {
+    background-color: rgba(28, 28, 28, 0.95);
 }
 
 :global(.vtex-menu-2-x-submenuWrapper--isOpen) {
