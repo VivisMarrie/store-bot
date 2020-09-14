@@ -8,3 +8,15 @@
 .slide {
   padding-left: 0.5rem;
 }
+
+:global(.vtex-product-summary-2-x-brandName) {
+  font-size: x-large;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent) {
+  justify-content: center;
+}
+
+:global(.vtex-product-price-1-x-installments--summary) {
+  margin-bottom: 0.5rem;
+}
