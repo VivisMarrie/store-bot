@@ -3,6 +3,12 @@
     text-shadow: 1px 2px 0px #F600A8;
 }
 
+@media screen and (max-width: 600px) {
+  .newsletter .container :global(.vtex-store-components-3-x-label){
+    font-size: 1.2rem;
+  }
+}
+
 .infoCardContainer {
   padding: 1.5em;
   border-bottom: 0em;
