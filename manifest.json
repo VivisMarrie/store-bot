@@ -47,7 +47,7 @@
     "vtex.breadcrumb": "1.x",
     "vtex.category-menu": "2.x",
     "vtex.sticky-layout": "0.x",
-    "vtex.countdown": "0.x"
+    "vtex.bot": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
