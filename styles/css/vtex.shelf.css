@@ -1,5 +1,5 @@
 .title {
-  padding-top: 4rem;
+  padding-top: 0.7rem;
   padding-bottom: 0rem;
 }
 .container {
@@ -13,7 +13,7 @@
   font-size: x-large;
 }
 
-:global(.vtex-store-components-3-x-container) 
+:global(.vtex-store-components-3-x-container)
   :global(.vtex-flex-layout-0-x-flexRowContent) {
   justify-content: center;
 }

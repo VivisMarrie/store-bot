@@ -1,25 +1,26 @@
 :global(.vtex-flex-layout-0-x-flexRow--main-header),
 :global(.vtex-store-header-2-x-headerRowContainer--main-header-mobile) {
-    background-color: #1C1C1C;
+  background-color: #1c1c1c;
 }
 
 .drawerContent {
-    overflow-y: visible;
-} 
+  overflow-y: visible;
+}
 
 :global(.vtex-store-drawer-0-x-opened) {
-    background-color: rgba(28, 28, 28, 0.95);
+  background-color: rgba(28, 28, 28, 0.95);
 }
 
 :global(.vtex-menu-2-x-submenuWrapper--isOpen) {
-    background-color: rgba(28, 28, 28, 0.8);
-    padding-top: 1.5rem;
+  background-color: rgba(28, 28, 28, 0.8);
+  padding-top: 1.5rem;
 }
 
 :global(.vtex-menu-2-x-submenuContainer) {
-    position: relative;
-} 
+  position: relative;
+}
 
-.headerRowContainer  {
-    justify-content: center;
+.headerRowContainer {
+  justify-content: center;
+  margin-bottom: 0em;
 }
