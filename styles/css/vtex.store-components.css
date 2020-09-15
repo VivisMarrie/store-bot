@@ -1,10 +1,10 @@
 .newsletter .container {
-    padding: 20px 20px;
-    text-shadow: 1px 2px 0px #F600A8;
+  padding: 20px 20px;
+  text-shadow: 1px 2px 0px #f600a8;
 }
 
 @media screen and (max-width: 600px) {
-  .newsletter .container :global(.vtex-store-components-3-x-label){
+  .newsletter .container :global(.vtex-store-components-3-x-label) {
     font-size: 1.2rem;
   }
 }
@@ -16,9 +16,18 @@
 .infoCardContainer--aboutUs {
   background-size: contain !important;
 }
+
 .infoCardHeadline {
   color: rgba(109, 106, 106, 0.7);
-  text-shadow: 1px 2px 0px #DAD9DA;
+  text-shadow: 1px 2px 0px #dad9da;
+  display: inline;
+  padding: 0.5rem;
+}
+
+.infoCardHeadline--home {
+  background: rgba(0, 0, 0, 0.5);
+  text-shadow: none;
+  color: #fff;
   display: inline;
   padding: 0.5rem;
 }
@@ -48,19 +57,18 @@
 
 :global(.vtex-rich-text-0-x-headingLevel1--text-about) {
   text-align: center;
-}   
+}
 
 .infoCardSubhead--about {
   font-size: 1.3rem;
 }
-
 
 :global(.vtex-rich-text-0-x-paragraph--text-about) {
   font-size: 1.8rem;
   text-align: center;
 }
 
-@media screen and (min-width: 80em){
+@media screen and (min-width: 80em) {
   .infoCardImageContainer--about {
     width: 35%;
   }
@@ -68,11 +76,10 @@
   .infoCardSubhead--about {
     font-size: 1.5rem;
   }
-  
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--sobreNos) {
-  background-color:rgba(228, 228, 228, 0.8);
+  background-color: rgba(228, 228, 228, 0.8);
 }
 
 :global(.vtex-store-components-3-x-infoCardTextContainer--about) {

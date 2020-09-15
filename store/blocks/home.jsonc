@@ -8,7 +8,6 @@
 
   "info-card#clothes": {
     "props": {
-      // "imageUrl": "https://cdn.clipart.email/f70c6ddaf317eaac0135f6e033b6edde_best-group-of-people-illustrations-royalty-free-vector-graphics-_612-371.jpeg",
       "imageUrl": "https://i.pinimg.com/originals/e0/c6/67/e0c667e5bdfeb48dbe48244ec07b818d.png",
       "isFullModeStyle": true,
       "callToActionText": "Sobre nós",
@@ -23,13 +22,13 @@
 
   "info-card#women": {
     "props": {
-      //"imageUrl": "https://img.freepik.com/free-vector/stylish-girls-outdoors-set_74855-3788.jpg",
       "imageUrl": "https://i.pinimg.com/736x/c2/d3/90/c2d39028f764a84ac2931390c67c1461.jpg",
       "isFullModeStyle": true,
       "headline": "Roupas Femininas",
       "callToActionText": "Ver mais",
       "callToActionUrl": "",
-      "textPosition": "center"
+      "textPosition": "center",
+      "blockClass": "home"
     }
   },
   "info-card#men": {
@@ -40,7 +39,8 @@
       "callToActionText": "Ver mais",
       "textPosition": "center",
       "callToActionEnum": "link",
-      "callToActionUrl": ""
+      "callToActionUrl": "",
+      "blockClass": "home"
     }
   }
 }

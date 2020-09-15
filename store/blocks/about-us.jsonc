@@ -1,184 +1,182 @@
 {
-    "store.custom#about-us": {
-      "blocks": [
-        "flex-layout.row#about-us",
-        "info-card#about-us1",
-        "info-card#about-us2",
-        "info-card#about-us3",
-        "info-card#about-us4",
-        "info-card#about-us5",
-        "info-card#about-us6",
-        "info-card#about-us7",
-        "info-card#about-us8",
-        "info-card#about-us9",
-        "info-card#about-us10"
-      ]
-    },
+  "store.custom#about-us": {
+    "blocks": [
+      "flex-layout.row#about-us",
+      "info-card#about-us1",
+      "info-card#about-us2",
+      "info-card#about-us3",
+      "info-card#about-us4",
+      "info-card#about-us5",
+      "info-card#about-us6",
+      "info-card#about-us7",
+      "info-card#about-us8",
+      "info-card#about-us9",
+      "info-card#about-us10"
+    ]
+  },
 
-    "info-card#about-us1": {
-      "props": {
-        "isFullModeStyle": false,
-        "textPosition": "right",
-        "imageUrl": "assets/Imagem1.png",
-        "headline": "Beatriz Andrade De Miranda",
-        "subhead": "Graduanda em Ciência da Computação na UFCG, gosta de séries e de viajar. Morando em Campina Grande, Paraíba, fez e continua fazendo projetos, tanto na faculdade como pessoal. Suas linguagens de programação são Python, Java, HTML5, CSS3, Bootstrap, Javascript, React JS e NodeJS. Junto com a sua equipe, pretende aprender e ajudar sempre, adquirindo experiência e conhecimento colaborando em grupo. Para ela a experiência no hiring coders tem sido transformadora e enriquecedora, e espera o mesmo no VTEX Trainning Week. E seu maior medo é ficar estagnada e não conseguir conquistar os seus objetivos.",
-        "callToActionMode": "button",
-        "callToActionText": "Acesse o GitHub",
-        "callToActionUrl": "https://github.com/beatrizadm",
-        "textAlignment": "center",
-        "blockClass": "about"
-      }
-    },
-
-    "info-card#about-us2": {
-      "props": {
-        "isFullModeStyle": false,
-        "textPosition": "left",
-        "imageUrl": "assets/Imagem2.png",
-        "headline": "Bruno De Alcântara Corral",
-        "subhead": "Graduado em Ciências da Computação, no seu tempo livre assiste filmes e séries. Reside em Bauru, São Paulo. Estagiou com foco em desenvolvimento e em suporte ao usuário. Já desenvolveu projetos pessoais e fez cursos B7Web.com e Rocketseat. Possui conhecimento em C++, HTML5, CSS3, Bootstrap, JavaScript, React.Js, Node.Js, TypeScript, PHP, SQL Server, MySQL, Java, Python e Android Studio. Pretende colocar em prática tudo o que eu já aprendeu e também compartilhar conhecimentos. Seu maior medo é ficar estagnado, não evoluir, sentir como um profissional que não conseguiu colocar os seus conhecimentos em prática.",
-        "callToActionMode": "button",
-        "callToActionText": "Acesse o GitHub",
-        "callToActionUrl": "https://github.com/bruno-corral",
-        "textAlignment": "center",
-        "blockClass": "about"
-      }
-    },
-
-    "info-card#about-us3": {
-      "props": {
-        "isFullModeStyle": false,
-        "textPosition": "right",
-        "imageUrl": "assets/Imagem3.png",
-        "headline": "Camila Lima Chung",
-        "subhead": "Formada em engenharia mecânica, mestra em modelagem computacional, pela UERJ, e futura desenvolvedora fullstack. Gosta de jogar video game e ver séries no tempo livre. Reside na cidade do Rio de Janeiro, não possui experiência profissional na área, fez alguns cursos na Udemy e outros gratuitos. Seu conhecimento em programação é C, C++, HTML5, CSS3, Bootstrap, JavaScript, React, Node, TypeScript e GraphQL. Pretende colocar em prática tudo que aprendeu, aprender e reaprender algo novo, ajudar e evoluir com o grupo. E seu maior medo é ficar estagnada, ver o mundo evoluir e ficar para trás.",
-        "callToActionMode": "button",
-        "callToActionText": "Acesse o GitHub",
-        "callToActionUrl": "https://github.com/milachung",
-        "textAlignment": "center",
-        "blockClass": "about"
-      }
-    },
-
-    "info-card#about-us4": {
-      "props": {
-        "isFullModeStyle": false,
-        "textPosition": "left",
-        "imageUrl": "assets/Imagem4.png",
-        "headline": "Camilo Andrés Parra",
-        "subhead": "Licenciado em Informática e tentando tornar um fullstack, tem como hobbie ver séries e viajar. Mora em Bogotá na Colômbia. Trabalha como técnico de suporte remoto e docente em Informática. Possui projetos pessoais, entende de PHP (Laravel), HTML5, CSS3, javascript (Vuejs), Mysql, Bootstrap e Jquery. Pretende contribuir para o sucesso do grupo e tornar-se um melhor profissional colocando a mão na massa. E seu maior medo é ficar pra trás, não cumprir suasexpectativas.",
-        "callToActionMode": "button",
-        "callToActionText": "Acesse o GitHub",
-        "callToActionUrl": "https://github.com/caparra92",
-        "textAlignment": "center",
-        "blockClass": "about"
-      }
-    },
-
-    "info-card#about-us5": {
-      "props": {
-        "isFullModeStyle": false,
-        "textPosition": "right",
-        "imageUrl": "assets/Imagem5.png",
-        "headline": "Eloisa Sayuri Tachibana",
-        "subhead": "Tecnóloga em Banco de Dados pela Fatec São José dos Campos, ama viajar, cachorro e gatinha. Mora em São Paulo na cidade São José dos Campos. Trabalhou como Desenvolvedora, atualmente trabalha e aprende C# e SAP. Tem experiência em web e mobile, além de saber JavaScript, Swift, Nodejs, Reactjs, React Native e SQL. Pretende aprender, praticar o conhecimento e ganhar mais experiência. Seu maior medo é ficar estagnada, ver todos à sua volta evoluindo e você não.",
-        "callToActionMode": "button",
-        "callToActionText": "Acesse o GitHub",
-        "callToActionUrl": "https://github.com/EloSayuri",
-        "textAlignment": "center",
-        "blockClass": "about"
-      }
-    },
-
-    "info-card#about-us6": {
-      "props": {
-        "isFullModeStyle": false,
-        "textPosition": "left",
-        "imageUrl": "assets/Imagem6.png",
-        "headline": "João Vitor de Melo Peixoto",
-        "subhead": "Formado em Engenharia de Controle e Automação pela UnB, seus hobbies são ver séries/filmes e viajar. Residente em Taguatinga, Distrito Federal, estagiou no setor de tecnologias, fez projetos pessoais e da faculdade além de cursos da Udemy. Em programação, sabe C/C++, Python, SQL, HTML5, CSS3, Bootstrap, Javascript, React JS e Node JS. Junto com os seu colegas, pretende adquirir experiência e conhecimento colaborando em grupo, aprendendo e ajudando sempre. Sente que vai ser uma experiência incrível e transformadora. E seu maior medo é não conseguir alcançar seus objetivos.",
-        "callToActionMode": "button",
-        "callToActionText": "Acesse o GitHub",
-        "callToActionUrl": "https://github.com/jovsky/",
-        "textAlignment": "center",
-        "blockClass": "about"
-      }
-    },
-
-    "info-card#about-us7": {
-      "props": {
-        "isFullModeStyle": false,
-        "textPosition": "right",
-        "imageUrl": "assets/Imagem7.png",
-        "headline": "Mahilson Hagnner de Souza Pereira",
-        "subhead": "Possui graduação em Gestão da Tecnologia da Informação (Senac) e MBA em Desenvolvimento Full Stack (IGTI). Um dos seus hobbies é tocar com os amigos, além de ver séries. Mora na cidade de Goiânia, atualmente é Líder Técnico, desenvolve projetos pessoais e levantamentos de requisitos em grandes empresas. Sabe HTML5, CSS3, Bootstrap, Javascript, React, Node, Java, SQL e MongoDb. Pretende conhecer os conceitos de desenvolvimento na plataforma da VTEX. E seu maior medo é não conseguir acompanhar a velocidade em que a tecnologia evolui.",
-        "callToActionMode": "button",
-        "callToActionText": "Acesse o GitHub",
-        "callToActionUrl": "https://github.com/Mhagner/",
-        "textAlignment": "center",
-        "blockClass": "about"
-      }
-    },
-
-    "info-card#about-us8": {
-      "props": {
-        "isFullModeStyle": false,
-        "textPosition": "left",
-        "imageUrl": "assets/Imagem8.png",
-        "headline": "Maria Fernanda Balassoni",
-        "subhead": "Tecnóloga em Sistemas para Internet, gosta de assistir filmes e séries. Mora em Santana de Parnaíba, São Paulo. Já estagiou em desenvolvimento de sistemas e atualmente como Desenvolvedora Front-End Júnior. Desenvolveu projetos pessoais, fez cursos com a Softblue e Digital Innovation One além de conhecer C, HTML5, CSS3, Bootstrap, JavaScript, React, ReactNative/ Node.Js, TypeScript e PHP. Pretende colocar em prática tudo o que já aprendeu e também compartilhar conhecimentos. Seu maior medo é ficar estagnada, não evoluir, sentir ser uma profissional desnecessária.",
-        "callToActionMode": "button",
-        "callToActionText": "Acesse o GitHub",
-        "callToActionUrl": "https://github.com/nandabalassoni/",
-        "textAlignment": "center",
-        "blockClass": "about"
-      }
-    },
-
-    "info-card#about-us9": {
-      "props": {
-        "isFullModeStyle": false,
-        "textPosition": "right",
-        "imageUrl": "assets/Imagem9.png",
-        "headline": "Rogério Alessandro Costa de Alcântara",
-        "subhead": "Possui Ensino Médio Completo, no seu tempo livre vai à praia e assiste filmes. Reside em Cruz Machado no Paraná. Trabalha com programação desde de 2000 e é especializado em hardware. Sabe e fez projetos utilizando Pascal (Delphi), HTML5, PHP, Javascript, JQuery, CSS, Laravel e Bootstrap. Pretende aumentar não só suas conexões como também aumentar as suas oportunidades e seu maior medo é de não conseguir entregar um projeto que tenha se comprometido.",
-        "callToActionMode": "button",
-        "callToActionText": "Acesse o GitHub",
-        "callToActionUrl": "https://github.com/RogerioAlcantara2020",
-        "textAlignment": "center",
-        "blockClass": "about"
-      }
-    },
-
-    "info-card#about-us10": {
-      "props": {
-        "isFullModeStyle": false,
-        "textPosition": "left",
-        "imageUrl": "assets/Imagem10.png",
-        "headline": "Viviane Ribeiro de Souza",
-        "subhead": "Formada em Ciência da Computação, tem como hobbie jogar vídeo game e viajar. Mora na cidade de São Paulo. Sempre trabalhou como desenvolvedora, fez projetos em Java + Spring principalmente, além de conhecer as linguagens Python e Django. Pretende aproveitar ao máximo o desafio de resolver um problema em grupo utilizando uma tecnologia nova. E seu maior medo é parar de aprender.",
-        "callToActionMode": "button",
-        "callToActionText": "Acesse o GitHub",
-        "callToActionUrl": "https://github.com/VivisMarrie",
-        "textAlignment": "center",
-        "blockClass": "about"
-      }
-    },
-
-    "flex-layout.row#about-us": {
-        "props":{
-          "blockClass": "sobreNos"
-        },
-        "children": [
-          "rich-text#about-us"
-        ]
-    },
-
-    "rich-text#about-us": {
-        "props": {
-          "text": "# **Sobre nós** \n Saiba um pouco mais sobre cada integrante da nossa equipe, sua tragetória e suas maiores experiências.",
-          "textPosition": "CENTER",
-          "blockClass": "text-about"
-        }
+  "info-card#about-us1": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "assets/Imagem1.png",
+      "headline": "Beatriz Andrade De Miranda",
+      "subhead": "Graduanda em Ciência da Computação na UFCG, gosta de séries e de viajar. Morando em Campina Grande, Paraíba, fez e continua fazendo projetos, tanto na faculdade como pessoal. Suas linguagens de programação são Python, Java, HTML5, CSS3, Bootstrap, Javascript, React JS e NodeJS. Junto com a sua equipe, pretende aprender e ajudar sempre, adquirindo experiência e conhecimento colaborando em grupo. Para ela a experiência no hiring coders tem sido transformadora e enriquecedora, e espera o mesmo no VTEX Trainning Week. E seu maior medo é ficar estagnada e não conseguir conquistar os seus objetivos.",
+      "callToActionMode": "button",
+      "callToActionText": "Acesse o GitHub",
+      "callToActionUrl": "https://github.com/beatrizadm",
+      "textAlignment": "center",
+      "blockClass": "about"
     }
+  },
+
+  "info-card#about-us2": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/Imagem2.png",
+      "headline": "Bruno De Alcântara Corral",
+      "subhead": "Graduado em Ciências da Computação, no seu tempo livre assiste filmes e séries. Reside em Bauru, São Paulo. Estagiou com foco em desenvolvimento e em suporte ao usuário. Já desenvolveu projetos pessoais e fez cursos B7Web.com e Rocketseat. Possui conhecimento em C++, HTML5, CSS3, Bootstrap, JavaScript, React.Js, Node.Js, TypeScript, PHP, SQL Server, MySQL, Java, Python e Android Studio. Pretende colocar em prática tudo o que eu já aprendeu e também compartilhar conhecimentos. Seu maior medo é ficar estagnado, não evoluir, sentir como um profissional que não conseguiu colocar os seus conhecimentos em prática.",
+      "callToActionMode": "button",
+      "callToActionText": "Acesse o GitHub",
+      "callToActionUrl": "https://github.com/bruno-corral",
+      "textAlignment": "center",
+      "blockClass": "about"
+    }
+  },
+
+  "info-card#about-us3": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "assets/Imagem3.png",
+      "headline": "Camila Lima Chung",
+      "subhead": "Formada em engenharia mecânica, mestra em modelagem computacional, pela UERJ, e futura desenvolvedora fullstack. Gosta de jogar video game e ver séries no tempo livre. Reside na cidade do Rio de Janeiro, não possui experiência profissional na área, fez alguns cursos na Udemy e outros gratuitos. Seu conhecimento em programação é C, C++, HTML5, CSS3, Bootstrap, JavaScript, React, Node, TypeScript e GraphQL. Pretende colocar em prática tudo que aprendeu, aprender e reaprender algo novo, ajudar e evoluir com o grupo. E seu maior medo é ficar estagnada, ver o mundo evoluir e ficar para trás.",
+      "callToActionMode": "button",
+      "callToActionText": "Acesse o GitHub",
+      "callToActionUrl": "https://github.com/milachung",
+      "textAlignment": "center",
+      "blockClass": "about"
+    }
+  },
+
+  "info-card#about-us4": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/Imagem4.png",
+      "headline": "Camilo Andrés Parra",
+      "subhead": "Licenciado em Informática e tentando tornar um fullstack, tem como hobbie ver séries e viajar. Mora em Bogotá na Colômbia. Trabalha como técnico de suporte remoto e docente em Informática. Possui projetos pessoais, entende de PHP (Laravel), HTML5, CSS3, javascript (Vuejs), Mysql, Bootstrap e Jquery. Pretende contribuir para o sucesso do grupo e tornar-se um melhor profissional colocando a mão na massa. E seu maior medo é ficar pra trás, não cumprir suasexpectativas.",
+      "callToActionMode": "button",
+      "callToActionText": "Acesse o GitHub",
+      "callToActionUrl": "https://github.com/caparra92",
+      "textAlignment": "center",
+      "blockClass": "about"
+    }
+  },
+
+  "info-card#about-us5": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "assets/Imagem5.png",
+      "headline": "Eloisa Sayuri Tachibana",
+      "subhead": "Tecnóloga em Banco de Dados pela Fatec São José dos Campos, ama viajar, cachorro e gatinha. Mora em São Paulo na cidade São José dos Campos. Trabalhou como Desenvolvedora, atualmente trabalha e aprende C# e SAP. Tem experiência em web e mobile, além de saber JavaScript, Swift, Nodejs, Reactjs, React Native e SQL. Pretende aprender, praticar o conhecimento e ganhar mais experiência. Seu maior medo é ficar estagnada, ver todos à sua volta evoluindo e você não.",
+      "callToActionMode": "button",
+      "callToActionText": "Acesse o GitHub",
+      "callToActionUrl": "https://github.com/EloSayuri",
+      "textAlignment": "center",
+      "blockClass": "about"
+    }
+  },
+
+  "info-card#about-us6": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/Imagem6.png",
+      "headline": "João Vitor de Melo Peixoto",
+      "subhead": "Formado em Engenharia de Controle e Automação pela UnB, seus hobbies são ver séries/filmes e viajar. Residente em Taguatinga, Distrito Federal, estagiou no setor de tecnologias, fez projetos pessoais e da faculdade além de cursos da Udemy. Em programação, sabe C/C++, Python, SQL, HTML5, CSS3, Bootstrap, Javascript, React JS e Node JS. Junto com os seu colegas, pretende adquirir experiência e conhecimento colaborando em grupo, aprendendo e ajudando sempre. Sente que vai ser uma experiência incrível e transformadora. E seu maior medo é não conseguir alcançar seus objetivos.",
+      "callToActionMode": "button",
+      "callToActionText": "Acesse o GitHub",
+      "callToActionUrl": "https://github.com/jovsky/",
+      "textAlignment": "center",
+      "blockClass": "about"
+    }
+  },
+
+  "info-card#about-us7": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "assets/Imagem7.png",
+      "headline": "Mahilson Hagnner de Souza Pereira",
+      "subhead": "Possui graduação em Gestão da Tecnologia da Informação (Senac) e MBA em Desenvolvimento Full Stack (IGTI). Um dos seus hobbies é tocar com os amigos, além de ver séries. Mora na cidade de Goiânia, atualmente é Líder Técnico, desenvolve projetos pessoais e levantamentos de requisitos em grandes empresas. Sabe HTML5, CSS3, Bootstrap, Javascript, React, Node, Java, SQL e MongoDb. Pretende conhecer os conceitos de desenvolvimento na plataforma da VTEX. E seu maior medo é não conseguir acompanhar a velocidade em que a tecnologia evolui.",
+      "callToActionMode": "button",
+      "callToActionText": "Acesse o GitHub",
+      "callToActionUrl": "https://github.com/Mhagner/",
+      "textAlignment": "center",
+      "blockClass": "about"
+    }
+  },
+
+  "info-card#about-us8": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/Imagem8.png",
+      "headline": "Maria Fernanda Balassoni",
+      "subhead": "Tecnóloga em Sistemas para Internet, gosta de assistir filmes e séries. Mora em Santana de Parnaíba, São Paulo. Já estagiou em desenvolvimento de sistemas e atualmente como Desenvolvedora Front-End Júnior. Desenvolveu projetos pessoais, fez cursos com a Softblue e Digital Innovation One além de conhecer C, HTML5, CSS3, Bootstrap, JavaScript, React, ReactNative/ Node.Js, TypeScript e PHP. Pretende colocar em prática tudo o que já aprendeu e também compartilhar conhecimentos. Seu maior medo é ficar estagnada, não evoluir, sentir ser uma profissional desnecessária.",
+      "callToActionMode": "button",
+      "callToActionText": "Acesse o GitHub",
+      "callToActionUrl": "https://github.com/nandabalassoni/",
+      "textAlignment": "center",
+      "blockClass": "about"
+    }
+  },
+
+  "info-card#about-us9": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "assets/Imagem9.png",
+      "headline": "Rogério Alessandro Costa de Alcântara",
+      "subhead": "Possui Ensino Médio Completo, no seu tempo livre vai à praia e assiste filmes. Reside em Cruz Machado no Paraná. Trabalha com programação desde de 2000 e é especializado em hardware. Sabe e fez projetos utilizando Pascal (Delphi), HTML5, PHP, Javascript, JQuery, CSS, Laravel e Bootstrap. Pretende aumentar não só suas conexões como também aumentar as suas oportunidades e seu maior medo é de não conseguir entregar um projeto que tenha se comprometido.",
+      "callToActionMode": "button",
+      "callToActionText": "Acesse o GitHub",
+      "callToActionUrl": "https://github.com/RogerioAlcantara2020",
+      "textAlignment": "center",
+      "blockClass": "about"
+    }
+  },
+
+  "info-card#about-us10": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/Imagem10.png",
+      "headline": "Viviane Ribeiro de Sousa",
+      "subhead": "Formada em Ciência da Computação, tem como hobbie jogar vídeo game e viajar. Mora na cidade de São Paulo. Sempre trabalhou como desenvolvedora, fez projetos em Java + Spring principalmente, além de conhecer as linguagens Python e Django. Pretende aproveitar ao máximo o desafio de resolver um problema em grupo utilizando uma tecnologia nova. E seu maior medo é parar de aprender.",
+      "callToActionMode": "button",
+      "callToActionText": "Acesse o GitHub",
+      "callToActionUrl": "https://github.com/VivisMarrie",
+      "textAlignment": "center",
+      "blockClass": "about"
+    }
+  },
+
+  "flex-layout.row#about-us": {
+    "props": {
+      "blockClass": "sobreNos"
+    },
+    "children": ["rich-text#about-us"]
+  },
+
+  "rich-text#about-us": {
+    "props": {
+      "text": "# **Sobre nós** \n Saiba um pouco mais sobre cada integrante da nossa equipe, sua tragetória e suas maiores experiências.",
+      "textPosition": "CENTER",
+      "blockClass": "text-about"
+    }
+  }
 }

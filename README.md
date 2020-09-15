@@ -8,8 +8,8 @@ vtex publish
 
 vtex use prod --production
 
-vtex install hiringcoders14.theme@4.0.0
+vtex install hiringcoders14.theme@5.0.0
 
-vtex deploy hiringcoders14.theme@4.0.0
+vtex deploy hiringcoders14.theme@5.0.0
 
 vtex workspace promote
