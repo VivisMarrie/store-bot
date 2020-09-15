@@ -3,7 +3,10 @@
   background-color: #1c1c1c;
 }
 
-.drawerContent--burger {
+/* .drawerContent--burger {
+  overflow-y: visible;
+} */
+:global(.vtex-store-drawer-0-x-drawerContent) {
   overflow-y: visible;
 }
 
