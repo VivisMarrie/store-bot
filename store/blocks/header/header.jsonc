@@ -8,8 +8,8 @@
 
   "header-layout.desktop": {
     "children": [
-      "header-row#notification",
-      "flex-layout.row#desktop"
+      "header-row#name-store",
+      "sticky-layout#desktop"
     ]
   },
 
@@ -20,7 +20,7 @@
     "children": ["flex-layout.row#desktop"]
   },
 
-  "header-row#notification": {
+  "header-row#name-store": {
     "children": ["header-spacer", "image#header", "header-spacer"]
   },
 
@@ -75,13 +75,13 @@
   },
 
   "header-layout.mobile": {
-    "children": ["sticky-layout#1-mobile"]
+    "children": ["header-row#name-store", "sticky-layout#-mobile"]
   },
-  "sticky-layout#1-mobile": {
+  "sticky-layout#-mobile": {
     "props": {
       "sticky": true
     },
-    "children": ["header-row#notification", "header-row#main-mobile", "header-row#search"]
+    "children": ["header-row#main-mobile", "header-row#search"]
   },
 
   "header-row#main-mobile": {
@@ -125,7 +125,8 @@
   "image#header": {
     "props": {
       "src": "assets/DevsFuriosos2.jpeg",
-      "maxHeight": 200
+      "alt": "Name Store",
+      "maxHeight": 300
     }
   }
 }

@@ -1,7 +1,8 @@
 {
   "vtex.menu@2.x:menu#footer-clothing": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "clothing"
     },
     "children": [ 
       "menu-item#blouses",
@@ -29,9 +30,9 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/",
+        "href": "#",
         "noFollow": true,
-        "tagTitle": "Clothing",
+        "tagTitle": "Roupas",
         "text": "Roupas"
       }
     },
@@ -62,9 +63,9 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/blouses",
+        "href": "/blusas",
         "noFollow": false,
-        "tagTitle": "blouses",
+        "tagTitle": "Blusas",
         "text": "Blusas"
       }
     }
@@ -78,9 +79,9 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "coats",
+        "href": "/casacos",
         "noFollow": false,
-        "tagTitle": "coats",
+        "tagTitle": "Casacos",
         "text": "Casacos"
       }
     }
@@ -94,9 +95,9 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/hats",
+        "href": "/chapeus",
         "noFollow": false,
-        "tagTitle": "hats",
+        "tagTitle": "Chapeus",
         "text": "Chapéus"
       }
     }
@@ -110,9 +111,9 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/pants",
+        "href": "/calcas",
         "noFollow": false,
-        "tagTitle": "pants",
+        "tagTitle": "Calças",
         "text": "Calças"
       }
     }
@@ -126,9 +127,9 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/shoes",
+        "href": "/sapatos",
         "noFollow": false,
-        "tagTitle": "shoes",
+        "tagTitle": "Sapatos",
         "text": "Sapatos"
       }
     }
