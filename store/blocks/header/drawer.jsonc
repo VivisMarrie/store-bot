@@ -9,7 +9,8 @@
       "menu-item#more"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "burger"
     }
   }
   }
