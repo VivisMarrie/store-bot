@@ -41,3 +41,54 @@
   margin-left: 1rem;
   margin-right: 1rem;
 }
+
+.infoCardImage--about {
+  border-radius: 60%;
+}
+
+/* Tentativa 1
+
+.headingLevel1--text-about {
+  text-align: center;
+} */
+
+/*Tentativa 2
+
+.container--text-about .headingLevel1--text-about {
+  text-align: center;
+} */
+
+/* Tentativa 3 */
+:global(.vtex-rich-text-0-x-headingLevel1--text-about) {
+  text-align: center;
+}   
+
+.infoCardSubhead--about {
+  font-size: 1.3rem;
+}
+
+/* Teste 1
+
+.paragraph--text-about {
+  font-size: 1.8rem;
+  text-align: center;
+} */
+
+/* Teste 2
+
+.container--text-about .paragraph--text-about {
+  font-size: 1.8rem;
+  text-align: center;
+} */
+
+/* Teste 3
+
+.wrapper--text-about .paragraph--text-about {
+  font-size: 1.8rem;
+  text-align: center;
+}  */
+
+:global(.vtex-rich-text-0-x-paragraph--text-about) {
+  font-size: 1.8rem;
+  text-align: center;
+}
