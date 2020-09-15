@@ -2,7 +2,6 @@
   "shelf": {
     "blocks": ["product-summary.shelf"],
     "props": {
-      "category": 1,
       "orderBy": "OrderByTopSaleDESC",
       "paginationDotsVisibility": "desktopOnly",
       "productList": {
@@ -15,15 +14,7 @@
       }
     }
   },
-  /* "product-summary.shelf": {
-    "children": [
-      "product-summary-image",
-      "product-summary-name",
-      "product-summary-sku-selector",
-      "product-summary-price",
-      "add-to-cart-button"
-    ]
-  }, */
+  
   "add-to-cart-button": {
     "props": {
       "text": "Adicionar ao Carrinho",
