@@ -17,8 +17,8 @@
   background-size: contain !important;
 }
 .infoCardHeadline {
-  background: rgba(0, 0, 0, 0.5);
-  color: #fff;
+  color: rgba(109, 106, 106, 0.7);
+  text-shadow: 1px 2px 0px #DAD9DA;
   display: inline;
   padding: 0.5rem;
 }
@@ -46,19 +46,6 @@
   border-radius: 60%;
 }
 
-/* Tentativa 1
-
-.headingLevel1--text-about {
-  text-align: center;
-} */
-
-/*Tentativa 2
-
-.container--text-about .headingLevel1--text-about {
-  text-align: center;
-} */
-
-/* Tentativa 3 */
 :global(.vtex-rich-text-0-x-headingLevel1--text-about) {
   text-align: center;
 }   
@@ -67,28 +54,33 @@
   font-size: 1.3rem;
 }
 
-/* Teste 1
-
-.paragraph--text-about {
-  font-size: 1.8rem;
-  text-align: center;
-} */
-
-/* Teste 2
-
-.container--text-about .paragraph--text-about {
-  font-size: 1.8rem;
-  text-align: center;
-} */
-
-/* Teste 3
-
-.wrapper--text-about .paragraph--text-about {
-  font-size: 1.8rem;
-  text-align: center;
-}  */
 
 :global(.vtex-rich-text-0-x-paragraph--text-about) {
   font-size: 1.8rem;
   text-align: center;
+}
+
+@media screen and (min-width: 80em){
+  .infoCardImageContainer--about {
+    width: 35%;
+  }
+
+  .infoCardSubhead--about {
+    font-size: 1.5rem;
+  }
+  
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--sobreNos) {
+  background-color:rgba(228, 228, 228, 0.8);
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--about) {
+  background-color: rgba(228, 228, 228, 0.5);
+  border: 5px ridge gray;
+  width: 60%;
+}
+
+.infoCardHeadline--about {
+  width: 100%;
 }
