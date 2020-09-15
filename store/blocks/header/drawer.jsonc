@@ -1,5 +1,8 @@
 {
   "drawer": {
+    "props":{
+      "blockClass": "burger"
+    },
     "children": ["menu#drawer"]
   },
 
@@ -9,8 +12,7 @@
       "menu-item#more"
     ],
     "props": {
-      "orientation": "vertical",
-      "blockClass": "burger"
+      "orientation": "vertical"
     }
   }
   }

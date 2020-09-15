@@ -172,7 +172,7 @@
         "props": {
           "textAlignment": "CENTER",
           "textPosition": "CENTER",
-          "text": "**PAGE NOT FOUND**",
+          "text": "**PÁGINA NÃO ENCONTRADA**",
           "font": "t-heading-1"
         }
       },
