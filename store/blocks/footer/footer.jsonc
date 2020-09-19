@@ -79,7 +79,7 @@
     "children": ["flex-layout.col#footer-1-mobile"],
     "props": {
       "horizontalAlign": "center",
-      "blockClass": "payment-methods",
+      "blockClass": "footerMobile",
       "paddingTop": 4,
       "paddingBottom": 4
     }

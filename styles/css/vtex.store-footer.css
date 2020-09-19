@@ -7,3 +7,12 @@
     color: white;
 }
 
+.socialNetworkImage:hover,
+.socialNetworkImage:focus {
+    filter: invert(0%) sepia(0%) saturate(100%) hue-rotate(346deg) brightness(150%) contrast(200%) drop-shadow(8px 8px 20px #f600a8);
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--footerMobile) {
+    margin-left: 1.3rem;
+}
+
