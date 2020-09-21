@@ -15,7 +15,7 @@
 
   "sticky-layout#desktop": {
     "props": {
-      "blockClass": "sticky-header"
+      "blockClass": "stickyHeader"
     },
     "children": ["flex-layout.row#desktop"]
   },
@@ -31,7 +31,7 @@
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true,
-      "blockClass": "main-header"
+      "blockClass": "header"
     },
     "children": [
       "flex-layout.col#logo-desktop",
@@ -93,7 +93,7 @@
       "minicart.v2"
     ],
     "props": {
-      "blockClass": "main-header-mobile",
+      "blockClass": "headerMobile",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
       "fullWidth": true
@@ -118,7 +118,8 @@
   "login": {
     "props": {
       "showIconProfile": true,
-      "iconLabel": "Login"
+      "iconLabel": "Login",
+      "blockClass": "login" 
     }
   },
 

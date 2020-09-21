@@ -1,11 +1,10 @@
-:global(.vtex-flex-layout-0-x-flexRow--main-header),
-:global(.vtex-store-header-2-x-headerRowContainer--main-header-mobile) {
-  background-color: #1c1c1c;
-}
 
-/* .drawerContent--burger {
-  overflow-y: visible;
-} */
+:global(.vtex-flex-layout-0-x-flexRowContent--header), 
+:global(.vtex-store-header-2-x-headerRowContainer--headerMobile) {
+  background-color: #1c1c1c;
+  transition: ease-in-out 0.85s;
+}  
+
 :global(.vtex-store-drawer-0-x-drawerContent) {
   overflow-y: visible;
 }
@@ -16,8 +15,19 @@
 
 :global(.vtex-menu-2-x-submenuWrapper--isOpen) {
   background-color: rgba(28, 28, 28, 0.8);
-  padding-top: 1.5rem;
+  border-color: rgba(28, 28, 28, 0.8);
+  padding-top: 1.5rem;  
 }
+
+:global(.vtex-login-2-x-container) 
+  :global(.vtex-button),
+:global(.vtex-minicart-2-x-minicartContainer)
+  :global(.vtex-button) {
+  background-color: transparent;
+} 
+
+/* .hover-bg-action-secondary:focus, .hover-bg-action-secondary:hover {
+  background-color: #dbe9fd; */
 
 :global(.vtex-menu-2-x-submenuContainer) {
   position: relative;

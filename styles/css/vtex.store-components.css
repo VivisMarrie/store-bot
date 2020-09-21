@@ -91,3 +91,7 @@
 .infoCardHeadline--about {
   width: 100%;
 }
+
+.quickviewMainRow {
+  padding: 10em;
+}

@@ -4,7 +4,7 @@
       "itemsPerPage": {
         "desktop": 6,
         "tablet": 5,
-        "phone": 5
+        "phone": 3
       },
       "autoplay": {
         "timeout": 7000,
