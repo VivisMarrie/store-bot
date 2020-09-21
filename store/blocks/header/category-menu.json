@@ -5,7 +5,8 @@
       },
       "children": [
         "menu-item#category-clothing",
-        "menu-item#more"
+        "menu-item#more",
+        "menu-item#wishlist"
       ]
     },
     "menu-item#category-clothing": {
@@ -92,7 +93,6 @@
       },
       "children": [
         "menu-item#about-us",
-        "menu-item#wishlist",
         "menu-item#faq"
       ]
     },
