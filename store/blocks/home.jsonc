@@ -6,7 +6,8 @@
 
       "shelf",
       "flex-layout.row#1",
-      "slider-layout#home"
+      "slider-layout#home",
+      "back-to-top-button"
     ]
   },
   "flex-layout.row": {
@@ -62,5 +63,11 @@
   },
   "flex-layout.row#1": {
     "children": ["rich-text#shelf"]
+  },
+  "back-to-top-button":{
+      "props":{
+      "displayThreshold": 800,
+      "display": "caret-icon"
+    }
   }
 }

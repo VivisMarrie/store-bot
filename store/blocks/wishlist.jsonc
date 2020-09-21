@@ -2,7 +2,8 @@
     "store.wishlist": {
       "blocks": [
         "flex-layout.row#top",
-        "list-context.wishlist"
+        "list-context.wishlist",
+        "back-to-top-button"
       ]
     },
     "flex-layout.row#top": {

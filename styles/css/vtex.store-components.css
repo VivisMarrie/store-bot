@@ -95,3 +95,7 @@
 .quickviewMainRow {
   padding: 10em;
 }
+
+.backToTopButtonContainer {
+  left: 2rem;
+}
