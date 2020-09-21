@@ -6,7 +6,7 @@
 }
 
 .sliderTrackContainer {
-  margin-top: 30px;
+  margin-top: 0px;
   margin-bottom: 20px;
   max-width: 1520px;
 }
@@ -17,8 +17,6 @@
 }
 
 .layoutContainer--carousel {
-  margin-top: 30px;
-  margin-bottom: 20px;
   max-width: 96rem;
 }
 
@@ -27,4 +25,3 @@
   padding-left: 0.6rem;
   padding-right: 0.6rem;
 }
-

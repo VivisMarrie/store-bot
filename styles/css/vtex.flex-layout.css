@@ -1,3 +1,11 @@
-/* .flexRowContent {
-  margin-top: 0.1em;
-} */
+.flexColChild--quickviewDetails {
+  padding-right: 1em;
+}
+.flexRowContent--price {
+  justify-content: left !important;
+}
+
+.flexRowContent--details {
+  padding-top: 0.3em;
+  padding-bottom: 0.5em;
+}

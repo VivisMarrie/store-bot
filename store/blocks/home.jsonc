@@ -1,6 +1,13 @@
 {
   "store.home": {
-    "blocks": ["chatbot", "flex-layout.row", "shelf", "slider-layout#home"]
+    "blocks": [
+      "chatbot",
+      "flex-layout.row",
+
+      "shelf",
+      "flex-layout.row#1",
+      "slider-layout#home"
+    ]
   },
   "flex-layout.row": {
     "children": ["info-card#clothes", "flex-layout.col"]
@@ -42,5 +49,18 @@
       "callToActionUrl": "",
       "blockClass": "home"
     }
+  },
+  "rich-text#shelf": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "MARCAS",
+      "textColor": "c-on-base",
+      "font": "t-heading-3",
+      "blockClass": "brands-title"
+    }
+  },
+  "flex-layout.row#1": {
+    "children": ["rich-text#shelf"]
   }
 }
