@@ -116,7 +116,6 @@
   },
   "product-summary.shelf": {
     "children": [
-      "add-to-list-btn",
       "stack-layout#prodsum",
       "product-summary-name",
       "product-rating-inline",
@@ -136,7 +135,7 @@
     }
   },
   "stack-layout#prodsum": {
-    "children": ["product-summary-image#shelf", "modal-trigger#quickview"]
+    "children": ["product-summary-image#shelf", "modal-trigger#quickview", "add-to-list-btn"]
   },
 
   "product-summary-image": {

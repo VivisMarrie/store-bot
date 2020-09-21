@@ -22,22 +22,12 @@
     },
     "rich-text#title":{
       "props": {
-        "text": "## Wishlist "
+        "text": "## Lista de Favoritos "
       }
     },
     "list-context.wishlist": {
-      "blocks": ["product-summary.shelf#wishlist"],
+      "blocks": ["product-summary.shelf"],
       "children": ["slider-layout#wishlist"]
-    },
-    "product-summary.shelf#wishlist": {
-      "children": [
-        "add-to-list-btn",
-        "product-summary-image",
-        "product-summary-name",
-        "product-summary-space",
-        "product-summary-price",
-        "add-to-cart-button"
-      ]
     },
     "slider-layout#wishlist": {
       "props": {
