@@ -1,5 +1,9 @@
 {
     "store.custom#about-us": {
       "path": "/about-us"
+    },
+
+    "store.wishlist": {
+      "path": "/wishlist"
     }
-  }
+}    

@@ -92,6 +92,7 @@
       },
       "children": [
         "menu-item#about-us",
+        "menu-item#wishlist",
         "menu-item#faq"
       ]
     },
@@ -107,6 +108,21 @@
           "noFollow": true,
           "tagTitle": "Sobre nos",
           "text": "Sobre nós"
+        }
+      }
+    },
+    "menu-item#wishlist": {
+      "props": {
+        "id": "menu-item-wishlist",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/wishlist",
+          "noFollow": true,
+          "tagTitle": "Favoritos",
+          "text": "Favoritos"
         }
       }
     },
