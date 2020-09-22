@@ -17,6 +17,11 @@
   background-size: contain !important;
 }
 
+.infoCardContainer--home {
+  background-size: contain !important;
+  padding: 0em;
+}
+
 .infoCardHeadline {
   color: rgba(109, 106, 106, 0.7);
   text-shadow: 1px 2px 0px #dad9da;
@@ -29,7 +34,10 @@
   text-shadow: none;
   color: #fff;
   display: inline;
-  padding: 0.5rem;
+}
+
+.infoCardHeadline--home {
+  margin: 4rem 1em 0em 1em;
 }
 
 .searchBarContainer {

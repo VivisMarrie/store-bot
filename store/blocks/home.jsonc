@@ -11,10 +11,10 @@
     ]
   },
   "flex-layout.row": {
-    "children": ["info-card#clothes", "flex-layout.col"]
+    "children": ["info-card#about", "flex-layout.col"]
   },
 
-  "info-card#clothes": {
+  "info-card#about": {
     "props": {
       "imageUrl": "https://i.pinimg.com/originals/e0/c6/67/e0c667e5bdfeb48dbe48244ec07b818d.png",
       "isFullModeStyle": true,
@@ -30,24 +30,24 @@
 
   "info-card#women": {
     "props": {
-      "imageUrl": "https://i.pinimg.com/736x/c2/d3/90/c2d39028f764a84ac2931390c67c1461.jpg",
+      "imageUrl": "assets/women.jpg",
       "isFullModeStyle": true,
       "headline": "Roupas Femininas",
       "callToActionText": "Ver mais",
-      "callToActionUrl": "",
+      "callToActionUrl": "/blusas/feminino",
       "textPosition": "center",
       "blockClass": "home"
     }
   },
   "info-card#men": {
     "props": {
-      "imageUrl": "https://thumbs.dreamstime.com/b/beautiful-young-mens-fashion-clothing-bitmap-beautiful-young-mens-fashion-clothing-isolated-bitmap-boy-white-background-120601255.jpg",
+      "imageUrl": "assets/men.jpg",
       "isFullModeStyle": true,
       "headline": "Roupas Masculinas",
       "callToActionText": "Ver mais",
       "textPosition": "center",
       "callToActionEnum": "link",
-      "callToActionUrl": "",
+      "callToActionUrl": "/casacos/masculino",
       "blockClass": "home"
     }
   },
@@ -64,8 +64,8 @@
   "flex-layout.row#1": {
     "children": ["rich-text#shelf"]
   },
-  "back-to-top-button":{
-      "props":{
+  "back-to-top-button": {
+    "props": {
       "displayThreshold": 800,
       "display": "caret-icon"
     }
