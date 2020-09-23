@@ -129,3 +129,7 @@
     text-align: center;
   }
 }
+
+.backToTopButtonActive {
+  bottom: 1rem;
+}
