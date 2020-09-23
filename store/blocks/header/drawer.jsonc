@@ -9,7 +9,8 @@
   "menu#drawer": {
     "children": [
       "menu-item#category-clothing",
-      "menu-item#more"
+      "menu-item#more",
+      "menu-item#wishlist"
     ],
     "props": {
       "orientation": "vertical"
