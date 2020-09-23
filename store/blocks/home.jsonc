@@ -1,73 +1,88 @@
 {
-  "store.home": {
-    "blocks": [
-      "chatbot",
-      "flex-layout.row",
-
-      "shelf",
-      "flex-layout.row#1",
-      "slider-layout#home",
-      "back-to-top-button"
-    ]
-  },
-  "flex-layout.row": {
-    "children": ["info-card#about", "flex-layout.col"]
-  },
-
-  "info-card#about": {
-    "props": {
-      "imageUrl": "https://i.pinimg.com/originals/e0/c6/67/e0c667e5bdfeb48dbe48244ec07b818d.png",
-      "isFullModeStyle": true,
-      "callToActionText": "Sobre nós",
-      "textPosition": "center",
-      "callToActionUrl": "/about-us",
-      "blockClass": "aboutUs"
-    }
-  },
-  "flex-layout.col": {
-    "children": ["info-card#women", "info-card#men"]
-  },
-
-  "info-card#women": {
-    "props": {
-      "imageUrl": "assets/women.jpg",
-      "isFullModeStyle": true,
-      "headline": "Roupas Femininas",
-      "callToActionText": "Ver mais",
-      "callToActionUrl": "/blusas/feminino",
-      "textPosition": "center",
-      "blockClass": "home"
-    }
-  },
-  "info-card#men": {
-    "props": {
-      "imageUrl": "assets/men.jpg",
-      "isFullModeStyle": true,
-      "headline": "Roupas Masculinas",
-      "callToActionText": "Ver mais",
-      "textPosition": "center",
-      "callToActionEnum": "link",
-      "callToActionUrl": "/casacos/masculino",
-      "blockClass": "home"
-    }
-  },
-  "rich-text#shelf": {
-    "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "MARCAS",
-      "textColor": "c-on-base",
-      "font": "t-heading-3",
-      "blockClass": "brands-title"
-    }
-  },
-  "flex-layout.row#1": {
-    "children": ["rich-text#shelf"]
-  },
-  "back-to-top-button": {
-    "props": {
-      "displayThreshold": 800,
-      "display": "caret-icon"
-    }
-  }
+    "store.home": {
+      "blocks": [
+        "chatbot",
+        "flex-layout.row",
+        "shelf",
+        "flex-layout.row#1",
+        "slider-layout#home",
+        "back-to-top-button",
+        "flex-layout.row#2"
+      ]
+    },
+    "flex-layout.row": {
+      "children": ["info-card#about", "flex-layout.col"]
+    },
+  
+    "info-card#about": {
+      "props": {
+        "imageUrl": "https://i.pinimg.com/originals/e0/c6/67/e0c667e5bdfeb48dbe48244ec07b818d.png",
+        "isFullModeStyle": true,
+        "callToActionText": "Sobre nós",
+        "textPosition": "center",
+        "callToActionUrl": "/about-us",
+        "blockClass": "aboutUs"
+      }
+    },
+    "flex-layout.col": {
+      "children": ["info-card#women", "info-card#men"]
+    },
+  
+    "info-card#women": {
+      "props": {
+        "imageUrl": "assets/women.jpg",
+        "isFullModeStyle": true,
+        "headline": "Roupas Femininas",
+        "callToActionText": "Ver mais",
+        "callToActionUrl": "/blusas/feminino",
+        "textPosition": "center",
+        "blockClass": "home"
+      }
+    },
+    "info-card#men": {
+      "props": {
+        "imageUrl": "assets/men.jpg",
+        "isFullModeStyle": true,
+        "headline": "Roupas Masculinas",
+        "callToActionText": "Ver mais",
+        "textPosition": "center",
+        "callToActionEnum": "link",
+        "callToActionUrl": "/casacos/masculino",
+        "blockClass": "home"
+      }
+    },
+    "rich-text#shelf": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "MARCAS",
+        "textColor": "c-on-base",
+        "font": "t-heading-3",
+        "blockClass": "brands-title"
+      }
+    },
+    "flex-layout.row#1": {
+      "children": ["rich-text#shelf"]
+    },
+    "back-to-top-button": {
+      "props": {
+        "displayThreshold": 800,
+        "display": "caret-icon"
+      }
+    },
+    "flex-layout.row#2": {
+        "children": ["info-card#teto"]
+    },
+    "info-card#teto": {
+        "props": {
+          "imageUrl": "https://d335luupugsy2.cloudfront.net/cms/files/131216/1594994647/$stdxgqn7aw",
+          "isFullModeStyle": false,
+          "callToActionText": "SAIBA MAIS",
+          "headline": "TETO",
+          "textPosition": "center",
+          "callToActionUrl": "/teto",
+          "blockClass": "Teto"
+        }
+      }
 }
+  

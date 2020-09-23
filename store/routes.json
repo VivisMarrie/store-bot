@@ -5,5 +5,9 @@
 
     "store.wishlist": {
       "path": "/wishlist"
+    },
+
+    "store.custom#teto": {
+      "path": "/teto"
     }
 }    
