@@ -15,3 +15,9 @@
   margin-bottom: 0.5rem;
   text-shadow: 1px 2px 0px white;
 }
+
+@media screen and (max-width: 600px) {
+  .flexCol--productMain {
+    margin-right: 0;
+  }
+}

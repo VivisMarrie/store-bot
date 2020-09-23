@@ -123,3 +123,9 @@
 :global(.vtex-rich-text-0-x-headingLevel1--teto) {
   font-size: 2rem;
 }
+
+@media screen and (max-width: 600px) {
+  .productNameContainer {
+    text-align: center;
+  }
+}
