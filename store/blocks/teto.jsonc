@@ -1,5 +1,41 @@
 {
     "store.custom#teto": {
-        
-    }
+        "blocks": ["flex-layout.row#teto", "info-card#teto"]
+    },
+
+    "flex-layout.row#teto": {
+        "props":{
+            "blockClass": "teto"
+        },
+        "children": ["image#tetologo", "rich-text#teto"]
+      },
+
+    "image#tetologo": {
+        "props": {
+          "src": "https://colabore-fichas-production.s3.amazonaws.com/13/campaigns/single_step/images/6197/single_step_header_logo_image/main_Logo_TETO_RGB_branco.png",
+          "maxHeight": 150,
+          "maxWidth": 200
+        }
+    },    
+    
+    "rich-text#teto": {
+        "props": {
+          "text": "# **Por uma sociedade mais justa e sem pobreza**",
+          "textPosition": "CENTER",
+          "textColor": "c-on-muted-1",
+          "blockClass":"teto"
+        }
+    },
+
+    "info-card#teto": {
+        "props": {
+          "isFullModeStyle": true,
+          "textPosition": "left",
+          "imageUrl": "https://colabore-fichas-production.s3.amazonaws.com/13/campaigns/single_step/images/6197/single_step_background_image/main_IMG_9908__1_.JPG",
+          "headline": "A TETO Brasil trabalha há mais de 10 anos pela superação da pobreza nas comunidades mais precárias do país, sempre lado a lado com moradores e jovens voluntários. Além de passar por auditorias independentes anuais, a TETO Brasil foi eleita a melhor ONG de Desenvolvimento Local do Brasil pelo Prêmio Melhores ONGs 2018 - uma iniciativa do Instituto Doar e da Rede Filantropia.",
+          "callToActionMode": "none",
+          "textAlignment": "center",
+          "blockClass": "teto"
+        }
+      }
 }

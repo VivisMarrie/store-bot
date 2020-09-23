@@ -167,9 +167,6 @@
   },
 
   "flex-layout.row#about-us": {
-    "props": {
-      "blockClass": "sobreNos"
-    },
     "children": ["rich-text#about-us"]
   },
 
