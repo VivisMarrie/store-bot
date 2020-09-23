@@ -22,12 +22,11 @@
 :global(.vtex-login-2-x-container) 
   :global(.vtex-button),
 :global(.vtex-minicart-2-x-minicartContainer)
-  :global(.vtex-button) {
+  :global(.vtex-button),
+:global(.vtex-wish-list-1-x-wishlistIconContainer)
+    :global(.vtex-button) {
   background-color: transparent;
 } 
-
-/* .hover-bg-action-secondary:focus, .hover-bg-action-secondary:hover {
-  background-color: #dbe9fd; */
 
 :global(.vtex-menu-2-x-submenuContainer) {
   position: relative;
