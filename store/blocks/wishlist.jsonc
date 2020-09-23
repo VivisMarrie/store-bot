@@ -7,6 +7,9 @@
       ]
     },
     "flex-layout.row#top": {
+      "props":{
+        "blockClass": "wishListTitle"
+      },
       "children": [
         "flex-layout.col#title"
       ]
@@ -16,13 +19,15 @@
         "rich-text#title"
       ],
       "props": {
-        "blockClass": "titleWishlist",
         "preventVerticalStretch": true
       }
     },
     "rich-text#title":{
       "props": {
-        "text": "## Lista de Favoritos "
+        "text": "## Lista de Favoritos ",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass": "wishListTitle"
       }
     },
     "list-context.wishlist": {

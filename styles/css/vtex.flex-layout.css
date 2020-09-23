@@ -9,3 +9,9 @@
   padding-top: 0.3em;
   padding-bottom: 0.5em;
 }
+
+.flexRow--wishListTitle {
+  background-color:rgba(237, 64, 194, 0.31);
+  margin-bottom: 0.5rem;
+  text-shadow: 1px 2px 0px white;
+}
