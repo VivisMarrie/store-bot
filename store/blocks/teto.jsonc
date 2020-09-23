@@ -1,6 +1,6 @@
 {
     "store.custom#teto": {
-        "blocks": ["flex-layout.row#teto", "info-card#teto"]
+        "blocks": ["flex-layout.row#teto", "info-card#1-teto"]
     },
 
     "flex-layout.row#teto": {
@@ -27,7 +27,7 @@
         }
     },
 
-    "info-card#teto": {
+    "info-card#1-teto": {
         "props": {
           "isFullModeStyle": true,
           "textPosition": "left",
