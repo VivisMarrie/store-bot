@@ -117,13 +117,13 @@
 
   "flex-layout.row#brand": {
     "children": [
-      "vtex.store-components:product-brand"
+      "vtex.store-components@3.x:product-brand"
     ]
   },
-  "vtex.store-components:product-brand": {
+  "vtex.store-components@3.x:product-brand": {
     "props": {
       "displayMode": "logo",
-      "height": 2,
+      "height": 50,
       "logoWithLink": true,
       "blockClass": "productBrandLogo"
     }
@@ -131,6 +131,7 @@
 
   "sku-selector": {
     "props": {
+      "visibility": "always",
       "variationsSpacing": 3,
       "showValueNameForImageVariation": true
     }

@@ -135,3 +135,11 @@
 .productBrandLogo {
   height: 2rem;
 }
+
+@media screen and (max-width: 600px) {
+  .productBrandLogoWrapper--productBrandLogo{
+    display: flex;
+    justify-content: center;
+  }
+}
+
