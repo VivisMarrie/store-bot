@@ -21,3 +21,7 @@
     margin-right: 0;
   }
 }
+
+.flexRow--teto {
+  background-color: rgba(45, 158, 255, 0.41);
+}

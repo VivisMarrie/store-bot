@@ -10,4 +10,18 @@
 
 .headingLevel1--teto {
   text-align: center;
+  font-size: 2rem;
+}
+
+.container--text-about {
+  background-color: rgba(228, 228, 228, 0.8);
+}
+
+.paragraph--text-about {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.headingLevel1--text-about {
+  text-align: center;
 }
