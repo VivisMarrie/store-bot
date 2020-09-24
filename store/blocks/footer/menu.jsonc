@@ -26,7 +26,7 @@
     "props": {  
       "blockClass":"clothingMobile",
       "id": "menu-item-category-clothing",
-      "type": "category",
+      "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
