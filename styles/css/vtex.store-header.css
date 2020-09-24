@@ -1,36 +1,8 @@
 
-:global(.vtex-flex-layout-0-x-flexRowContent--header), 
-:global(.vtex-store-header-2-x-headerRowContainer--headerMobile) {
+.headerRowContainer--headerMobile {
   background-color: #1c1c1c;
   transition: ease-in-out 0.85s;
 }  
-
-:global(.vtex-store-drawer-0-x-drawerContent) {
-  overflow-y: visible;
-}
-
-:global(.vtex-store-drawer-0-x-opened) {
-  background-color: rgba(28, 28, 28, 0.95);
-}
-
-:global(.vtex-menu-2-x-submenuWrapper--isOpen) {
-  background-color: rgba(28, 28, 28, 0.8);
-  border-color: rgba(28, 28, 28, 0.8);
-  padding-top: 1.5rem;  
-}
-
-:global(.vtex-login-2-x-container) 
-  :global(.vtex-button),
-:global(.vtex-minicart-2-x-minicartContainer)
-  :global(.vtex-button),
-:global(.vtex-wish-list-1-x-wishlistIconContainer)
-    :global(.vtex-button) {
-  background-color: transparent;
-} 
-
-:global(.vtex-menu-2-x-submenuContainer) {
-  position: relative;
-}
 
 .headerRowContainer {
   justify-content: center;

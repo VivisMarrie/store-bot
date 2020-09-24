@@ -1,0 +1,9 @@
+.submenuContainer {
+    position: relative;
+}
+  
+.submenuWrapper--isOpen {
+    background-color: rgba(28, 28, 28, 0.8);
+    border-color: rgba(28, 28, 28, 0.8);
+    padding-top: 1.5rem;  
+}

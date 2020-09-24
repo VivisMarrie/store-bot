@@ -20,8 +20,20 @@
   .flexCol--productMain {
     margin-right: 0;
   }
+  
+  .flexColChild--productMain {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .flexRow--teto {
   background-color: rgba(45, 158, 255, 0.41);
 }
+
+.flexRowContent--header {
+  background-color: #1c1c1c;
+  transition: ease-in-out 0.85s;
+} 
+
+

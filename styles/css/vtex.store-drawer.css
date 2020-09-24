@@ -1,0 +1,8 @@
+:global(.vtex-store-drawer-0-x-opened) {
+    background-color: rgba(28, 28, 28, 0.95);
+}
+
+.drawerContent {
+    overflow-y: visible;
+}
+  
