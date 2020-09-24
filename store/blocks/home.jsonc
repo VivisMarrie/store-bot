@@ -71,18 +71,31 @@
       }
     },
     "flex-layout.row#2": {
-        "children": ["info-card#teto"]
+        "children": ["info-card#teto", "iframe"],
+        "props": {
+          "blockClass": "Teto"
+        }
     },
     "info-card#teto": {
         "props": {
-          "imageUrl": "https://d335luupugsy2.cloudfront.net/cms/files/131216/1594994647/$stdxgqn7aw",
-          "isFullModeStyle": false,
           "callToActionText": "SAIBA MAIS",
+          "subhead":"A TETO é uma organização da sociedade civil, sem fins lucrativos, que funciona graças à contribuição econômica das empresas, à cooperação internacional e a doações de pessoas como você, que acreditam em nosso trabalho. Essas contribuições nos permitem continuar trabalhando para superar a pobreza em comunidades precárias na América Latina. Deseja conhecer a TETO?",
           "headline": "TETO",
           "textPosition": "center",
+          "imageUrl":"https://apliquefacil.vteximg.com.br/arquivos/ids/155855-1000-1000/papel-de-parede-adesivo-liso-azul-ceu-quarto-de-menino-lagoa-azul-LI19086.jpg?v=636861042088530000",
+          "isFullModeStyle": true,
+          "textAlignment":"center",
           "callToActionUrl": "/teto",
           "blockClass": "Teto"
         }
-      }
+    },
+    "iframe": {
+        "props": {
+            "src": "https://www.youtube.com/embed/IxixXpsV6Pk",
+            "width": 800,
+            "height": 455,
+            "blockClass": "Teto"
+        }
+    }
 }
   
