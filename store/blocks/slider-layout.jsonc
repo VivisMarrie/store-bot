@@ -27,7 +27,9 @@
   "image#brand1": {
     "props": {
       "alt": "DevsFuriosos brand image",
-      "link": "/devsfuriosos",
+      "link": {
+        "url": "/devsfuriosos"
+      },
       "src": "/arquivos/ids/155416_2/devsfuriosos.jpg",
       "maxHeight": 100
     }
@@ -36,7 +38,9 @@
   "image#brand2": {
     "props": {
       "alt": "Nike brand image",
-      "link": "/nike",
+      "link": {
+        "url": "/nike"
+      },
       "src": "/arquivos/ids/155417_2/nike.jpg",
       "maxHeight": 100
     }
@@ -45,7 +49,9 @@
   "image#brand3": {
     "props": {
       "alt": "Adidas brand image",
-      "link": "/adidas",
+      "link": {
+        "url": "/adidas"
+      },
       "src": "/arquivos/ids/155418_2/adidas.jpg",
       "maxHeight": 100
     }
@@ -54,7 +60,9 @@
   "image#brand4": {
     "props": {
       "alt": "Puma brand image",
-      "link": "/puma",
+      "link": {
+        "url": "/puma"
+      },
       "src": "/arquivos/ids/155419_2/puma.jpg",
       "maxHeight": 100
     }
@@ -63,7 +71,9 @@
   "image#brand5": {
     "props": {
       "alt": "Lacoste brand image",
-      "link": "/lacoste",
+      "link": {
+        "url": "/lacoste"
+      },
       "src": "/arquivos/ids/155420_2/lacoste.jpg",
       "maxHeight": 100
     }
@@ -72,7 +82,9 @@
   "image#brand6": {
     "props": {
       "alt": "Levi's brand image",
-      "link": "/levis",
+      "link": {
+        "url": "/levis"
+      },
       "src": "/arquivos/ids/155421_2/levis.jpg",
       "maxHeight": 100
     }
