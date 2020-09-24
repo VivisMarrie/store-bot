@@ -4,6 +4,7 @@
     "props": {
       "orderBy": "OrderByTopSaleDESC",
       "paginationDotsVisibility": "desktopOnly",
+      "blockClass": "shelfProduct",
       "productList": {
         "maxItems": 10,
         "itemsPerPage": 5,

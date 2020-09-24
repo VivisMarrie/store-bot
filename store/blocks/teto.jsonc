@@ -1,5 +1,124 @@
 {
     "store.custom#teto": {
-        
-    }
+        "blocks": [
+          "flex-layout.row#1-teto", 
+          "info-card#1-teto", 
+          "slider-layout#tetoDoacao", 
+          "slider-layout#text-teto"
+        ]
+    },
+
+    "flex-layout.row#1-teto": {
+        "props":{
+            "blockClass": "teto"
+        },
+        "children": ["image#tetologo", "rich-text#teto"]
+      },
+
+    "image#tetologo": {
+        "props": {
+          "src": "https://colabore-fichas-production.s3.amazonaws.com/13/campaigns/single_step/images/6197/single_step_header_logo_image/main_Logo_TETO_RGB_branco.png",
+          "maxHeight": 150,
+          "maxWidth": 200
+        }
+    },    
+    
+    "rich-text#teto": {
+        "props": {
+          "text": "# **Por uma sociedade mais justa e sem pobreza**",
+          "textPosition": "CENTER",
+          "textColor": "c-on-muted-1",
+          "blockClass":"teto"
+        }
+    },
+
+    "info-card#1-teto": {
+        "props": {
+          "isFullModeStyle": true,
+          "textPosition": "left",
+          "imageUrl": "https://colabore-fichas-production.s3.amazonaws.com/13/campaigns/single_step/images/6197/single_step_background_image/main_IMG_9908__1_.JPG",
+          "headline": "A TETO Brasil trabalha há mais de 10 anos pela superação da pobreza nas comunidades mais precárias do país, sempre lado a lado com moradores e jovens voluntários. Através da mobilização de moradores e jovens voluntários, construímos moradias de emergência e soluções de infraestrutura, como sedes comunitárias, pontes, quadras e biodigestores. Além de passar por auditorias independentes anuais, a TETO Brasil foi eleita a melhor ONG de Desenvolvimento Local do Brasil pelo Prêmio Melhores ONGs 2018 - uma iniciativa do Instituto Doar e da Rede Filantropia.",
+          "callToActionMode": "none",
+          "textAlignment": "center",
+          "blockClass": "teto"
+        }
+      },
+
+      "slider-layout#tetoDoacao": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 2,
+            "tablet": 2,
+            "phone": 1
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "blockClass": "carousel"
+        },
+        "children": ["info-card#1-tetoDoacao", "info-card#2-tetoDoacao"]
+      },
+
+      "info-card#1-tetoDoacao": {
+        "props": {
+          "isFullModeStyle": true,
+          "textPosition": "center",
+          "imageUrl": "",
+          "headline": "doacao 1",
+          "callToActionMode": "button",
+          "textAlignment": "center",
+          "blockClass": "tetoDoacao"
+        }
+      },
+
+      "info-card#2-tetoDoacao": {
+        "props": {
+          "isFullModeStyle": true,
+          "textPosition": "center",
+          "imageUrl": "",
+          "headline": "doacao 2",
+          "callToActionMode": "button",
+          "textAlignment": "center",
+          "blockClass": "tetoDoacao"
+        }
+      },
+
+      "slider-layout#text-teto": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 2,
+            "tablet": 2,
+            "phone": 1
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "blockClass": "carousel"
+        },
+        "children": ["info-card#2-teto", "info-card#3-teto"]
+      },
+    
+      "info-card#2-teto": {
+        "props": {
+          "isFullModeStyle": false,
+          "textPosition": "left",
+          "imageUrl": "https://d335luupugsy2.cloudfront.net/cms/files/131216/1595513096/$dfprx6omg7j",
+          "headline": "\"A Gerdau é parceira da TETO há 8 anos e temos muito orgulho de contribuir para o trabalho desenvolvido pela organização. Por meio da atuação dos nossos voluntários e a doação de pregos, reforçamos o nosso compromisso em contribuir para uma melhoria na situação habitacional. Agradecemos à TETO pela confiança e engajamento incansável nesses anos.\"",
+          "subhead":"Paulo Boneff (Diretor do Instituto Gerdau)",
+          "callToActionMode": "none",
+          "textAlignment": "center",
+          "blockClass": "tetoPartners"
+        }
+      },
+
+      "info-card#3-teto": {
+        "props": {
+          "isFullModeStyle": false,
+          "textPosition": "left",
+          "imageUrl": "https://d335luupugsy2.cloudfront.net/cms/files/131216/1596557680/$qd5ikcv8ipp",
+          "headline": "\"Com um ambiente de total colaboração entre moradores e voluntários, entregamos uma casa em 2 dias. Foi uma experiência onde moradias e pessoas foram construídas, onde o coletivo foi muito maior que o individual e fizemos parte da história de alguém. A Involves é parceira da TETO por entender que a evolução pessoal e profissional caminham juntas. Começou, não para!\"",
+          "subhead":"Ayna Christovam (Customer Success na Involves)",
+          "callToActionMode": "none",
+          "textAlignment": "center",
+          "blockClass": "tetoPartners"
+        }
+      }
 }

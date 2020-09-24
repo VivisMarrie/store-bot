@@ -26,7 +26,7 @@
   padding: 0em;
 }
 
-.infoCardHeadline {
+.infoCardHeadline--about {
   color: rgba(109, 106, 106, 0.7);
   text-shadow: 1px 2px 0px #dad9da;
   display: inline;
@@ -119,3 +119,44 @@
 :global(.vtex-wish-list-1-x-fill) {
   background: url('data:image/svg+xml;utf,<?xml version="1.0" encoding="UTF-8"?><svg id="Layer_1" data-name="Layer 1" fill="deeppink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><title>heart-glyph</title><path d="M362.67,21.33A149,149,0,0,0,256,66.19,149,149,0,0,0,149.33,21.33C67,21.33,0,88.32,0,170.67a148.45,148.45,0,0,0,43.08,104.9L240.51,484a21.33,21.33,0,0,0,31,0L468.75,275.74A148.45,148.45,0,0,0,512,170.67C512,88.32,445,21.33,362.67,21.33Z"/></svg>');
 }  
+
+:global(.vtex-flex-layout-0-x-flexRow--teto) {
+  background-color: rgba(45, 158, 255, 0.41);
+}
+
+:global(.vtex-rich-text-0-x-headingLevel1--teto) {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .productNameContainer {
+    text-align: center;
+  }
+}
+
+.backToTopButtonActive {
+  bottom: 1rem;
+}
+
+.infoCardContainer--tetoPartners {
+  border: 2px solid gray;
+  border-radius: 10px;
+  margin-top: 1.2rem;
+}
+
+.infoCardHeadline--tetoPartners {
+  font-size: 1rem;
+}
+
+.infoCardHeadline--teto{
+  background-color: rgba(45, 158, 255, 0.11);
+  border-radius: 10px;
+  padding: 1rem 1rem;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.infoCardContainer--teto {
+  background-position-y: 10%;
+}

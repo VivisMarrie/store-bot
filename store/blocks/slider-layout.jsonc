@@ -2,9 +2,9 @@
   "slider-layout#home": {
     "props": {
       "itemsPerPage": {
-        "desktop": 6,
-        "tablet": 5,
-        "phone": 3
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
       },
       "autoplay": {
         "timeout": 7000,
@@ -20,96 +20,60 @@
       "image#brand3",
       "image#brand4",
       "image#brand5",
-      "image#brand6",
-      "image#brand7",
-      "image#brand8",
-      "image#brand9",
-      "image#brand10",
-      "image#brand11",
-      "image#brand12"
+      "image#brand6"
     ]
   },
 
   "image#brand1": {
     "props": {
-      "src": "https://cdn.shopify.com/s/files/1/2143/3217/t/2/assets/brand-nike.png",
-      "maxHeight": 80
+      "alt": "DevsFuriosos brand image",
+      "link": "/devsfuriosos",
+      "src": "/arquivos/ids/155416_2/devsfuriosos.jpg",
+      "maxHeight": 100
     }
   },
 
   "image#brand2": {
     "props": {
-      "src": "https://logodix.com/logo/30289.png",
+      "alt": "Nike brand image",
+      "link": "/nike",
+      "src": "/arquivos/ids/155417_2/nike.jpg",
       "maxHeight": 100
     }
   },
 
   "image#brand3": {
     "props": {
-      "src": "https://i.pinimg.com/originals/1b/0d/57/1b0d57173070d0422192848c21634cca.png",
-      "maxHeight": 70
+      "alt": "Adidas brand image",
+      "link": "/adidas",
+      "src": "/arquivos/ids/155418_2/adidas.jpg",
+      "maxHeight": 100
     }
   },
 
   "image#brand4": {
     "props": {
-      "src": "https://www.7.life/sf/wp-content/uploads/2018/10/Seven-by-MS-Dhoni-250-x-71-01.png",
-      "maxHeight": 70
+      "alt": "Puma brand image",
+      "link": "/puma",
+      "src": "/arquivos/ids/155419_2/puma.jpg",
+      "maxHeight": 100
     }
   },
 
   "image#brand5": {
     "props": {
-      "src": "https://cdn.shopify.com/s/files/1/0046/0691/8774/files/logo_2x_320x320_1594c7b6-37d2-483d-9201-4f10f6fefd8b.png",
-      "maxHeight": 60
+      "alt": "Lacoste brand image",
+      "link": "/lacoste",
+      "src": "/arquivos/ids/155420_2/lacoste.jpg",
+      "maxHeight": 100
     }
   },
 
   "image#brand6": {
     "props": {
-      "src": "https://customers.seomanager.com/knowledgegraph/logo/lucy-yak_myshopify_com_logo.png",
-      "maxHeight": 100
-    }
-  },
-
-  "image#brand7": {
-    "props": {
-      "src": "https://cdn.shopify.com/s/files/1/1426/2042/files/png_diamond.png",
-      "maxHeight": 80
-    }
-  },
-
-  "image#brand8": {
-    "props": {
-      "src": "https://lofrev.net/wp-content/photos/2016/06/lacoste-logo-4-1.jpg",
-      "maxHeight": 100
-    }
-  },
-
-  "image#brand9": {
-    "props": {
-      "src": "https://logodix.com/logo/64244.png",
-      "maxHeight": 100
-    }
-  },
-
-  "image#brand10": {
-    "props": {
-      "src": "https://i.pinimg.com/originals/f4/ae/17/f4ae17e0fdef8361185405752c460bd5.png",
-      "maxHeight": 100
-    }
-  },
-
-  "image#brand11": {
-    "props": {
-      "src": "https://media.designrush.com/tinymce_images/73336/conversions/nars-logo-content.jpg",
-      "maxHeight": 100
-    }
-  },
-
-  "image#brand12": {
-    "props": {
-      "src": "https://logodix.com/logo/35595.png",
+      "alt": "Levi's brand image",
+      "link": "/levis",
+      "src": "/arquivos/ids/155421_2/levis.jpg",
       "maxHeight": 100
     }
   }

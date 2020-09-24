@@ -4,5 +4,10 @@
   margin-top: 0.5em;
   font-size: 1.8rem;
   font-weight: 600;
-  color: #333333;
+  color: #363636;
+  text-shadow: 1px 2px 0px #f586d2;
+}
+
+.headingLevel1--teto {
+  text-align: center;
 }

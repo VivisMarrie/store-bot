@@ -1,0 +1,9 @@
+@media screen and (max-width: 600px) {
+    .wishlistIconContainer {
+      text-align: center;
+    }
+}
+
+.wishlistIconContainer :global(.vtex-button) {
+  margin-top: 1rem;
+}

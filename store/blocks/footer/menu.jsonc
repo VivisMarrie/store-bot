@@ -23,10 +23,10 @@
   },
 
   "menu-item#clothing-mobile": {
-    "props": {
+    "props": {  
       "blockClass":"clothingMobile",
       "id": "menu-item-category-clothing",
-      "type": "custom",
+      "type": "category",
       "iconId": null,
       "highlight": false,
       "itemProps": {
@@ -59,12 +59,13 @@
   "menu-item#blouses": {
     "props": {
       "id": "menu-item-blouses",
-      "type": "custom",
+      "type": "category",
       "iconId": null,
       "highlight": false,
       "itemProps": {
+        "categoryId": 1, 
         "type": "internal",
-        "href": "/blusas",
+        "href": "/blusas/?fq=c",
         "noFollow": false,
         "tagTitle": "Blusas",
         "text": "Blusas"
@@ -75,12 +76,13 @@
   "menu-item#coats": {
     "props": {
       "id": "menu-item-coats",
-      "type": "custom",
+      "type": "category",
       "iconId": null,
       "highlight": false,
       "itemProps": {
+        "categoryId": 3, 
         "type": "internal",
-        "href": "/casacos",
+        "href": "/casacos/?fq=c",
         "noFollow": false,
         "tagTitle": "Casacos",
         "text": "Casacos"
@@ -91,12 +93,13 @@
   "menu-item#hats": {
     "props": {
       "id": "menu-item-hats",
-      "type": "custom",
+      "type": "category",
       "iconId": null,
       "highlight": false,
       "itemProps": {
+        "categoryId": 5, 
         "type": "internal",
-        "href": "/chapeus",
+        "href": "/chapeus/?fq=c",
         "noFollow": false,
         "tagTitle": "Chapeus",
         "text": "Chapéus"
@@ -107,12 +110,13 @@
   "menu-item#pants": {
     "props": {
       "id": "menu-item-pants",
-      "type": "custom",
+      "type": "category",
       "iconId": null,
       "highlight": false,
       "itemProps": {
+        "categoryId": 2, 
         "type": "internal",
-        "href": "/calcas",
+        "href": "/calcas/?fq=c",
         "noFollow": false,
         "tagTitle": "Calças",
         "text": "Calças"
@@ -123,12 +127,13 @@
   "menu-item#shoes": {
     "props": {
       "id": "menu-item-shoes",
-      "type": "custom",
+      "type": "category",
       "iconId": null,
       "highlight": false,
       "itemProps": {
+        "categoryId": 4, 
         "type": "internal",
-        "href": "/sapatos",
+        "href": "/sapatos/?fq=c",
         "noFollow": false,
         "tagTitle": "Sapatos",
         "text": "Sapatos"
