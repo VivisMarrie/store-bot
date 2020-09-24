@@ -22,7 +22,7 @@
   padding: 0em;
 }
 
-.infoCardHeadline {
+.infoCardHeadline--about {
   color: rgba(109, 106, 106, 0.7);
   text-shadow: 1px 2px 0px #dad9da;
   display: inline;
@@ -132,4 +132,27 @@
 
 .backToTopButtonActive {
   bottom: 1rem;
+}
+
+.infoCardContainer--tetoPartners {
+  border: 2px solid gray;
+  border-radius: 10px;
+  margin-top: 1.2rem;
+}
+
+.infoCardHeadline--tetoPartners {
+  font-size: 1rem;
+}
+
+.infoCardHeadline--teto{
+  background-color: rgba(45, 158, 255, 0.11);
+  border-radius: 10px;
+  padding: 1rem 1rem;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.infoCardContainer--teto {
+  background-position-y: 10%;
 }
