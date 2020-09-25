@@ -21,7 +21,7 @@
     margin-right: 0;
   }
   
-  .flexColChild--productMain {
+.flexColChild--productMain {
     display: flex;
     justify-content: center;
   }
@@ -36,4 +36,15 @@
   transition: ease-in-out 0.85s;
 } 
 
+.flexColChild--filterCol {
+  padding-left: 5px;
+  margin-left: 5px;
+}
 
+.flexRowContent {
+  justify-content: center;
+}
+
+.flexRow--footerMobile {
+  margin-left: 1.3rem;
+}

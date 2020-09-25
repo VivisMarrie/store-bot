@@ -1,24 +1,11 @@
 .nameContainer {
   padding: 5px;
 }
+
 .priceContainer {
   padding: 5px;
 }
 
-:global(.vtex-product-price-1-x-sellingPriceValue) {
-  font-weight: bold;
-  font-size: 2rem;
-}
-
-:global(.vtex-input-prefix__group) {
-  margin-bottom: 0.8rem;
-}
-
-:global(.vtex-product-quantity-1-x-quantitySelectorContainer) {
-  margin-top: 0.9rem;
-  margin-bottom: 1.2rem;
-}
-
-:global(.vtex-store-components-3-x-productNameContainer) {
-  font-size: 3rem;
+.brandName {
+  font-size: x-large;
 }
