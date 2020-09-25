@@ -120,14 +120,19 @@
     display: flex;
     justify-content: center;
   }
+
+  .infoCardImageContainer--tetoDoacao {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .productNameContainer {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .infoCardHeadline--teto{
-  background-color: rgba(45, 158, 255, 0.11);
+  background-color: rgba(45, 158, 255, 0.31);
   border-radius: 10px;
   padding: 1rem 1rem;
   color: white;
@@ -161,4 +166,12 @@
 
 .productDescriptionContainer {
   margin-left: 2rem;
+}
+
+.infoCardHeadline--tetoDoacao{
+  font-size: 1rem;
+}
+
+.infoCardImage--tetoDoacao {
+  width: 10rem;
 }
