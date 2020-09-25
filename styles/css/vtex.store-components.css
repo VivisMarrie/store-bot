@@ -175,3 +175,8 @@
 .infoCardImage--tetoDoacao {
   width: 10rem;
 }
+
+.infoCardHeadline--Teto {
+  color: rgba(109, 106, 106, 0.7);
+  text-shadow: 1px 2px 0px #dad9da;
+}  

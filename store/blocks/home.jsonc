@@ -82,7 +82,7 @@
           "subhead":"A TETO é uma organização da sociedade civil, sem fins lucrativos, que funciona graças à contribuição econômica das empresas, à cooperação internacional e a doações de pessoas como você, que acreditam em nosso trabalho. Essas contribuições nos permitem continuar trabalhando para superar a pobreza em comunidades precárias na América Latina. Deseja conhecer a TETO?",
           "headline": "TETO",
           "textPosition": "center",
-          "imageUrl":"https://apliquefacil.vteximg.com.br/arquivos/ids/155855-1000-1000/papel-de-parede-adesivo-liso-azul-ceu-quarto-de-menino-lagoa-azul-LI19086.jpg?v=636861042088530000",
+          "imageUrl":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwoHBwcHBxAQBwcHBxYHBwcHDxAICQcNIBEWFhURHxUYHSggGBolGxUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NFQ0NFysdFR0rKysrKysrLSsrKysrKysrKysrKysrKysrKysrKysrKy0tKysrKysrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAwEFAv/EABYQAQEBAAAAAAAAAAAAAAAAAAASEf/EABoBAQEBAAMBAAAAAAAAAAAAAAADAQQGBwL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEhH/2gAMAwEAAhEDEQA/AO3hKmGO0686lOSVMMNJTwlTDDSU8JUww0lOTFMMNJTkxTDDSU8MUww0lOTFMMNJTklTDDSU5JUww0lPDFMMNJTkxTDDSU8JUww0lOTFMMNJTkxTDDSU8JUww0lOTFMMNJTkUwbpKkkqySlq8pSSrJJpKUkqySaSlJKskmkpSSrJJpKUkqySaSlJKskmkpSSrJJpKUkqySaSlJKskmkpSSrJJpKUkqySaSlJKskmkpSSrJJpKUkqySaSlJKskmkpSSrJJpKUtUkNJUklTDE9XlOSVMMNJTklTDDSU5JUwk0lOSVMMNJTklTDDSU5JUww0lOSVMMNJTklSTDSU5JUww0lOSVMMNJTklTDDSU5JUwk0lOSVMMNJTklTDDSU5JUww0lOSVMMNJTkUkNJUwxWSUtXlLDFZJbpKWGKySaSlhiskmkpYYrJLNJSwxWSW6SlhiskmkpYYrJJpKWGKySaSlhiskmkpYYrJJpKWGKySaSlhiskmkpYYrJJpKWGKySaSlhiskmkpYYrJJpKWCshpKkkqSSlq8pySpJJpKckqSSaSnJKkkmkpySpJJpKckqSSaSnJKkkmkpySpJJpKcmKSSaSnJKkkmkpySpJJpKckqSSaSnJKkkmkpySpJJpKckqSSaSnJKkkmkpySpJJpKciktNJUwxSSU9XlPCVJJNbKeGKSSayU8JUkk1spyYpJJrJTwlSSTWynJikkmslPDFJJNbKeGKSSayU5MUkk0lPCVJJNJTwxSSTWynhikkmslPDFJJNJTwxSSTWynhikkmslPDFJJNbKcsVkNZKkkqySnrkSlJKuGGkpSSrJJpKUkqySaSlJKuEmkpSSrJhpKUkqySaSlJKssk0lOSVZZhpKckqySaSlJKuEmkpSSrJJpKUkqY2TSUpJVkk0lKSVZJNJSklWSTSUpJVkk0lKRWQ0lTDFJJS1eU8MUkk0lPCVJJNJTwxSSTSU8MUkk0lPDFJJNJTwxSSTSU5MUkk0lPDFJJNJTwxSSTSU8MUkk0lPCVJJNJTwxSSTSU8MUkk0lPDFJJNJTwxSSTSU5MUkk0lPBSWmkvckqySnq8pSSrJJpKUkqySaSlJKskmkpSSrJJpKUkqyYaSlJKsmGkpSSrhJpKUkqySaSlJKskmkpSSrhJpKUkqyYaSlJKskmkpSSrhJpKUkqyYaSlJKskmkpSSrJJpKUishpKkkqYYnq8pySphhpKckqYYaSnJKmGGkpySphhpKckqYYaSnJKmGGkpySphhpKckqYYaSnJKmGGkpySphhpKckqYYaSnJKmGGkpySphhpKckqYYaSnJKmGGkpySphhpKcimBpKmGNHwqzDGgMwxoDMMaAzDGgMwxoDMMaAzDGgMwxoDMMaAzDGgMwxoDMMaAzDGgMwxoDMMaAzDGgMwaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//Z",
           "isFullModeStyle": true,
           "textAlignment":"center",
           "callToActionUrl": "/teto",
@@ -92,8 +92,8 @@
     "iframe": {
         "props": {
             "src": "https://www.youtube.com/embed/IxixXpsV6Pk",
-            "width": 800,
-            "height": 475,
+            "width":"1020",
+            "height":"800",
             "blockClass": "Teto"
         }
     }
