@@ -152,6 +152,20 @@
   font-weight: bold;
 }
 
+@media screen and (max-width: 600px) {
+  .infoCardImage--about {
+    border-radius: 60%;
+    width: 62%;
+    margin-top: 3%
+  }
+  
+  .infoCardContainer {
+    padding: 1.5em;
+    border-bottom: 0em;
+    width: 40rem
+  }
+}
+
 .vtex-input-prefix__group{
   margin-bottom: 0.8rem;
 }
