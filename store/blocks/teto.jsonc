@@ -1,18 +1,26 @@
 {
     "store.custom#teto": {
         "blocks": [
-          "flex-layout.row#1-teto", 
+          "flex-layout.row#tetoTitle", 
+          "flex-layout.row#tetoSubtitle", 
           "info-card#1-teto", 
           "slider-layout#tetoDoacao", 
           "slider-layout#text-teto"
         ]
     },
 
-    "flex-layout.row#1-teto": {
+    "flex-layout.row#tetoTitle": {
         "props":{
             "blockClass": "teto"
         },
-        "children": ["image#tetologo", "rich-text#teto"]
+        "children": ["image#tetologo"]
+      },
+
+      "flex-layout.row#tetoSubtitle": {
+        "props":{
+            "blockClass": "teto"
+        },
+        "children": ["rich-text#teto"]
       },
 
     "image#tetologo": {
@@ -37,7 +45,7 @@
           "isFullModeStyle": true,
           "textPosition": "left",
           "imageUrl": "https://colabore-fichas-production.s3.amazonaws.com/13/campaigns/single_step/images/6197/single_step_background_image/main_IMG_9908__1_.JPG",
-          "headline": "A TETO Brasil trabalha há mais de 10 anos pela superação da pobreza nas comunidades mais precárias do país, sempre lado a lado com moradores e jovens voluntários. Através da mobilização de moradores e jovens voluntários, construímos moradias de emergência e soluções de infraestrutura, como sedes comunitárias, pontes, quadras e biodigestores. Além de passar por auditorias independentes anuais, a TETO Brasil foi eleita a melhor ONG de Desenvolvimento Local do Brasil pelo Prêmio Melhores ONGs 2018 - uma iniciativa do Instituto Doar e da Rede Filantropia.",
+          "headline": "A TETO Brasil trabalha há mais de 10 anos pela superação da pobreza nas comunidades mais precárias do país, sempre lado a lado com moradores e jovens voluntários. Através da mobilização de moradores e jovens voluntários, constroem moradias de emergência e soluções de infraestrutura, como sedes comunitárias, pontes, quadras e biodigestores. Além de passar por auditorias independentes anuais, a TETO Brasil foi eleita a melhor ONG de Desenvolvimento Local do Brasil pelo Prêmio Melhores ONGs 2018 - uma iniciativa do Instituto Doar e da Rede Filantropia.",
           "callToActionMode": "none",
           "textAlignment": "center",
           "blockClass": "teto"
@@ -47,24 +55,32 @@
       "slider-layout#tetoDoacao": {
         "props": {
           "itemsPerPage": {
-            "desktop": 2,
+            "desktop": 3,
             "tablet": 2,
             "phone": 1
           },
           "infinite": true,
           "showNavigationArrows": "desktopOnly",
-          "blockClass": "carousel"
+          "blockClass": "tetoDoacao"
         },
-        "children": ["info-card#1-tetoDoacao", "info-card#2-tetoDoacao"]
+        "children": [
+          "info-card#1-tetoDoacao",
+          "info-card#2-tetoDoacao", 
+          "info-card#3-tetoDoacao",
+          "info-card#4-tetoDoacao",
+          "info-card#5-tetoDoacao"]
       },
 
       "info-card#1-tetoDoacao": {
         "props": {
-          "isFullModeStyle": true,
+          "isFullModeStyle": false,
           "textPosition": "center",
-          "imageUrl": "",
-          "headline": "doacao 1",
+          "imageUrl": "https://d335luupugsy2.cloudfront.net/cms/files/131216/1594994647/$ms23ur6behc",
+          "headline": "APOIO NA RESPOSTA À COVID-19",
+          "subhead":"Um fundo chamado FunTETO centraliza doações para projetos comunitários que mitiguem os impactos da pandemia nas comunidades onde a TETO atua.",
           "callToActionMode": "button",
+          "callToActionText": "Saiba Mais",
+          "callToActionUrl": "https://www.tetobrasil-covid19.org/",
           "textAlignment": "center",
           "blockClass": "tetoDoacao"
         }
@@ -72,11 +88,55 @@
 
       "info-card#2-tetoDoacao": {
         "props": {
-          "isFullModeStyle": true,
+          "isFullModeStyle": false,
           "textPosition": "center",
-          "imageUrl": "",
-          "headline": "doacao 2",
+          "imageUrl": "https://d335luupugsy2.cloudfront.net/cms/files/131216/1596576758/$tm31bcmku3d",
+          "headline": "EMPRESA AMIGA DA TETO",
+          "subhead": "Com doações mensais de partir de R$ 250, sua empresa ajuda a TETO a ter mais previsibilidade e agir mais rápido frente às urgências identificadas junto às lideranças comunitárias.",
           "callToActionMode": "button",
+          "callToActionText": "Doe Aqui",
+          "callToActionUrl": "https://doe.teto.org.br/doacao-empresas/single_step",
+          "textAlignment": "center",
+          "blockClass": "tetoDoacao"
+        }
+      },
+
+      "info-card#3-tetoDoacao": {
+        "props": {
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "imageUrl": "https://www.netclipart.com/pp/m/437-4372118_business-group-svg-png-icon-business-people-icon.png",
+          "headline": "SEJA UM AMIGO DA TETO",
+          "subhead":"Doando um pequeno valor a cada mês, você ajuda a atuação da TETO em 6 estados brasileiros. Trabalhando pela superação da pobreza nas favelas mais precárias do país.",
+          "callToActionMode": "button",
+          "callToActionText": "Doe Aqui",
+          "callToActionUrl": "https://doe.teto.org.br/doe/single_step",
+          "textAlignment": "center",
+          "blockClass": "tetoDoacao"
+        }
+      },
+
+      "info-card#4-tetoDoacao": {
+        "props": {
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "imageUrl": "https://d335luupugsy2.cloudfront.net/cms/files/131216/1594994647/$94issu65bfc",
+          "headline": "PARCERIAS ESTRATÉGICAS",
+          "subhead":"Formato de apoio em que a empresa, comprometida com a transformação social no país, doa um produto ou serviço. Isso permite a redução de custos e aumento de eficiência da organização.",
+          "callToActionMode": "none",
+          "textAlignment": "center",
+          "blockClass": "tetoDoacao"
+        }
+      },
+
+      "info-card#5-tetoDoacao": {
+        "props": {
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "imageUrl": "https://d335luupugsy2.cloudfront.net/cms/files/131216/1596735446/$vd9z70plidc",
+          "headline": "VOLUNTARIADO CORPORATIVO",
+          "subhead": "Ferramenta de impacto triplo, que gera valor para a comunidade, a empresa e seus funcionários. Uma experiência de team building que estabelece vínculos fortes e duradouros entre os participantes.",
+          "callToActionMode": "none",
           "textAlignment": "center",
           "blockClass": "tetoDoacao"
         }
