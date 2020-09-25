@@ -78,7 +78,7 @@
     },
     "info-card#teto": {
         "props": {
-          "callToActionText": "SAIBA MAIS",
+          "callToActionText": "Saiba Mais",
           "subhead":"A TETO é uma organização da sociedade civil, sem fins lucrativos, que funciona graças à contribuição econômica das empresas, à cooperação internacional e a doações de pessoas como você, que acreditam em nosso trabalho. Essas contribuições nos permitem continuar trabalhando para superar a pobreza em comunidades precárias na América Latina. Deseja conhecer a TETO?",
           "headline": "TETO",
           "textPosition": "center",
