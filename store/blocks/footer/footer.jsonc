@@ -33,7 +33,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Feito por Devs Furiosos",
+      "text": "Feito por Devs e Furiosos",
       "blockClass": "footer"
     }
   },
@@ -109,7 +109,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Feito por Devs Furiosos",
+      "text": "Feito por Devs e Furiosos",
       "blockClass": "footer"
     }
   }
